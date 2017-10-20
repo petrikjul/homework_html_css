@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Домашнее задание №4</title>
+	<script type="text/javascript">
+		/* 4.1. Объявите 3 переменные;
+		2 из них определите со строковыми значениями;
+		Результат конкатенации двух предыдущих, через пробел, присвойте в третью переменную;
+		Результат (третью переменную) выведите в консоль.*/
+
+		var a = "start learn!";
+		var b = "finish learn!";
+		var c = a + ' ' + b;
+		console.log(c);
+		
+		/* 4.2. Работа с числами
+		Объявите 2 переменные и присвойте им
+		числовые значения;
+		Выведите в консоль результат их вычисления */
+		
+		var pen = 8;
+		var pencil = 4;
+		
+		console.log(pen + pencil);
+
+		console.log(pen - pencil);
+		console.log(pencil - pen);		
+
+		console.log(pen * pencil);		
+
+		console.log(pen / pencil);
+		console.log(pencil / pen);		
+
+		console.log(pen % pencil);
+		console.log(pencil % pen);
+
+		
+		var pen = 8;
+		var pencil = pen << 4;
+		console.log(pencil);		
+
+		var pencil = 4;
+		var pen = pencil << 8;
+		console.log(pen);
+		
+
+		var pen = 8;
+		var pencil = pen >> 4;
+		console.log(pencil);		
+
+		var pencil = 4;
+		var pen = pencil >> 8;
+		console.log(pen);
+
+
+		/* 4.3. Приведите примеры использования операторов, 
+		   которые вернут значение true и false.
+		   Выведите в консоль каждый из них, 
+		   с указанием в коментарии, какой будет результат.
+		*/
+		 
+		var a = 7;
+		var b = 5;
+		console.log( a > b ); // true
+		console.log( a < b ); // false
+		console.log( a <= b ); // falce	
+		console.log( a != b ); // true
+		console.log( a == b ); // false
+
+		a = 11;
+		b = 2;
+		console.log( a % b ===  1 ); // true		
+
+		console.log( 'abc' < 'ABC' ); // false
+
+		/* 4.4. Создать две переменные.
+		В первую присвоить результат выполнения функции confirm('True or false?');
+		Во вторую присвоить результат выполнения функции prompt('String or null?');
+		Выведите в консоль тип данных каждый из них, с указанием в комментарии, какой будет результат (если нажать 'OK' и если нажать 'Cancel').
+		*/ 
+
+		var win = confirm('True or false'); 
+		console.log(win); // Если ОК -true, если Отмена - false
+
+		var test = prompt('String or null'); 
+		console.log(test); // Если ОК - текст который вводится в строку, если Отмена - null
+
+		
+	</script>
+</head>
+<body>
+</body>
+</html>
+
+
