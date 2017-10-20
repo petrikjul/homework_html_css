@@ -1,0 +1,45 @@
+
+.sample-1 {
+	height: 250px;
+	width: 400px;
+	background-color: #000;
+	box-sizing: content-box;
+	font-family: Consolas, sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+	padding-top: 20px;
+}
+
+.sample {
+	height: 20px;
+	width: 400px;
+	background-color: #FF8C00;	
+	box-sizing: content-box;
+    padding: 5px 0px 5px 15px;
+	color: #FFFFFF;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	font-weight: 600;	
+} 
+
+.sign {
+	color: #FFFFFF;	
+}
+
+.variant-1 {
+	color: #F0E68C;
+	padding-left: 0px;
+}
+
+.variant-2 {
+	color: #808080;
+	padding-left: 40px;
+}
+
+.variant-3 {
+	color: #CD853F;
+}
+
+
+
+

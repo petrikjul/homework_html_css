@@ -1,0 +1,13 @@
+.img{
+	height: 350px;
+	width: 620px;
+	background-image: url(../img/gray_1.png);
+	}
+.img-overlay{
+	height: 350px;
+	width: 620px;
+	background-image: url(../img/gray_2.png);
+	background-size: 320px 220px;
+	background-repeat: no-repeat;	
+	background-position: 150px 60px;	
+}	

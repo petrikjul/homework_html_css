@@ -1,0 +1,29 @@
+div{
+		height: 240px;
+		width: 390px;
+		background-color: #F5F5F5;
+		padding: 10px;
+		box-sizing: border-box;
+		text-align: right;	
+}
+.text{	
+	color: red;
+	font-family: Times New Roman, sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+.text-1{	
+	font-family: Arial, sans-serif;
+	font-size: 12.5px;
+	line-height: 1.2;	
+}
+.text-2{	
+	font-family: Arial, sans-serif;
+	font-size: 12.5px;
+	line-height: 2.5;	
+}
+.text-3{	
+	font-family: Arial, sans-serif;
+	font-size: 12.5px;
+	line-height: 1.6;	
+}		

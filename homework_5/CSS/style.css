@@ -1,0 +1,55 @@
+
+.clock1 {
+	height: 40px;
+	width: 40px;	
+	background-image: url(../img/Clock1.png);
+	background-position: 0px 0px;
+	
+}
+
+.clock2 {
+	height: 40px;
+	width: 40px;
+    background-image: url(../img/Clock2.png); 
+    background-position: 40px 0px;
+ 
+}
+
+.clock3 { 
+	height: 40px;
+	width: 40px;
+    background-image: url(../img/Clock3.png); 
+    background-position: 80px 0px;
+}
+
+.clock4 {
+	height: 40px;
+	width: 40px;
+    background-image: url(../img/Clock4.png);
+    background-position: 120px 0px;
+}
+
+.sing1 {
+	height: 40px;
+	width: 40px;
+    background-image: url(../img/Sing1.png);  
+    background-position: 40px 0px;
+}
+.sing2 { 
+	height: 40px;
+	width: 40px;
+	background-image: url(../img/Sing2.png);
+	background-position: 40px 80px;
+}
+.dollar {
+	height: 40px;
+	width: 40px;
+	background-image: url(../img/Dollar.png);	
+    background-position: 40px 120px;
+}
+.dollar2 {
+	height: 40px;
+	width: 40px;
+    background-image: url(../img/Dollar2.png); 
+    background-position: 40px 160px;
+}
