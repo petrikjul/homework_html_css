@@ -1,0 +1,6 @@
+.lesson {
+	height: 60px;
+	width: 906px;
+	background-image: url(../img/lesson.png);
+	box-sizing: content-box;
+}
