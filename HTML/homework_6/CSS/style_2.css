@@ -1,0 +1,39 @@
+.logotip {
+	height: 61px;
+	width: 463px;
+	padding-left:  108px;
+	padding-top:  114px;	
+}
+
+.text1 {	
+	font-size: 46px;
+	font-family: Times New Roman;
+	letter-spacing: 10px;
+	float: left;	
+}
+
+.text2 {	
+	font-size: 46px;
+	font-family: Times New Roman;
+	letter-spacing: 8px;
+	float: left;
+	margin-left: 40px;	
+}
+
+.block {
+	height: 63px;
+	width:  63px;
+	background: url(../img/block.png);
+	float: left;
+	margin-left: 11px;
+	margin-right:  4px;
+	margin-top: -3px;
+}
+
+.text3 {
+	font-size: 46px;
+	font-family: Times New Roman;
+	letter-spacing: 8px;
+	float: right;
+}
+

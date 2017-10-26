@@ -1,0 +1,32 @@
+
+
+ul.pagination {
+	display: inline-block;
+	height: 50px;
+	width: 900px;
+	font-size: 12px;
+	font-family: Arial;
+	color: #FFFFFF;
+}
+
+ul.pagination li  {	
+	display: block;
+    padding: 5px;
+	background: #00BFFF;
+	float: left;
+	left: 10px;	
+}
+
+ul.pagination li a.block {
+	display: block;
+    padding: 5px;	
+	background: #00BFFF;
+}
+
+ul.pagination li a.active {	
+	background: #000;   
+}
+
+ul.pagination li a:hover {
+	background-color: #000;
+}

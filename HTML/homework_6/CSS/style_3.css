@@ -1,0 +1,42 @@
+.block {
+	height: 250px;
+	width: 240px;
+	padding-left:  0px;
+	padding-top:  0px;		
+}
+
+.cub {	
+	height: 240px;
+	width: 240px;
+	background: #FF1493;
+	position: relative;
+}
+
+.ball {	
+	height: 145px;
+	width: 145px;
+	background: #FF8C00;
+	border-radius: 72.5px;
+	position: absolute;
+	top: 48px;
+	left: 48px;	
+}
+
+.pluse1 {	
+ 	height: 5px;
+	width: 38px;
+	background: #FFFFFF;
+	position: absolute;
+	top: 118px;
+	left: 101px;
+}
+
+.pluse2 {	
+	height: 38px;
+	width: 5px;
+	background: #FFFFFF;
+	position: absolute;
+	top: 101px;
+	left: 118px;	
+}
+
