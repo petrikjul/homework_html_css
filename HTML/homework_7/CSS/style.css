@@ -1,0 +1,124 @@
+@font-face {
+	font-family: GothamProBlack;
+	src: local("GothamProBlack"),
+	url("../fonts/GothamProBlack.ttf");
+	font-style: normal;
+	font-weight: normal;	
+}
+
+@font-face {
+	font-family: GothamProLight;
+	src: local("GothamProLight"),
+	url("../fonts/GothamProLight.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: GothamPro;
+	src: local("GothamPro"),
+	url("../fonts/GothamPro.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: GothamProMedium;
+	src: local("GothamProMedium"),
+	url("../fonts/GothamProMedium.ttf");
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: 876c27;
+}
+
+.maket {
+	height: 450px;
+	width: 940px;	
+	box-sizing: content-box;
+	margin: 10px auto;
+}
+
+.red {
+	height: 450px;
+	width: 400px;
+	border-radius: 20px 0 0 20px;
+	background-image: url(../img/fon-red.png);
+}
+
+.white {
+	height: 270px;
+	width: 270px;
+	background-color: #FFFFFF;
+	position: relative;	
+	top: 90px;
+	left: 63px;	
+	border-radius: 6px;
+}
+
+.orange2 {
+	height: 53px;
+	width: 280px;	
+	background-image: url(../img/for-yellow-block.png);
+	position: absolute;		
+	top: 212px;
+	right: -5px;
+}
+
+.orange {
+	height: 53px;
+	width: 280px;
+	background-image: url(../img/yellow-block.png);
+	position: absolute;		
+	top: 210px;
+	right: -5px;
+}
+
+.picture {
+	height: 59px;
+	width: 52px;
+	background-image: url(../img/dzin.png);
+	position: absolute;	
+	top: -20px;
+	right: -10px;
+}
+
+.p1 {
+	font-family: GothamProBlack;	
+	font-size: 16px;
+	color: #575b66;
+	position: absolute;
+	top: 28px;
+	left: 86px;	
+}
+
+.p2 {	
+	font-family: GothamProLight;
+	font-size: 52px;
+	color: #9aaf4e;
+	position: absolute;
+	top: 81px;
+	left: 70px;
+}
+
+.p3 {
+	font-family: GothamPro;
+	font-size: 14px;
+	letter-spacing: 0.12px;
+	color: #8a8e99;
+	position: absolute;
+	top: 145px;
+	left: 56px;
+}
+
+.p4 {
+	font-family: GothamProMedium;
+	font-size: 16px;
+	color: #876c27;
+	position: absolute;
+	top: 226px;
+	left: 46px;
+}
+
+
+
