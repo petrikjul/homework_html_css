@@ -29,50 +29,32 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: 876c27;
+	
 }
 
-.maket {
-	height: 450px;
-	width: 940px;	
-	box-sizing: content-box;
+
+.body {	
+	width: 940px;
 	margin: 10px auto;
+	border-radius: 20px 20px 20px 20px;
+	overflow: hidden;	
 }
 
-.red {
-	height: 450px;
+.block_left {
 	width: 400px;
-	border-radius: 20px 0 0 20px;
-	background-image: url(../img/fon-red.png);
+	box-sizing: border-box;	
+	background-image: url(../img/fon-red.png);	
+	float: left;	  
 }
 
 .white {
-	height: 270px;
 	width: 270px;
-	background-color: #FFFFFF;
-	position: relative;	
-	top: 90px;
-	left: 63px;	
-	border-radius: 6px;
-}
-
-.orange2 {
-	height: 53px;
-	width: 280px;	
-	background-image: url(../img/for-yellow-block.png);
-	position: absolute;		
-	top: 212px;
-	right: -5px;
-}
-
-.orange {
-	height: 53px;
-	width: 280px;
-	background-image: url(../img/yellow-block.png);
-	position: absolute;		
-	top: 210px;
-	right: -5px;
-}
+	background-color: #FFFFFF;	
+	margin: 92px 63px;	  
+	padding: 134px 0;
+	border-radius: 8px;
+	position: relative;
+}	
 
 .picture {
 	height: 59px;
@@ -81,6 +63,24 @@
 	position: absolute;	
 	top: -20px;
 	right: -10px;
+}   
+	
+.orange {
+	background-image: url(../img/yellow-block.png);
+	width: 280px;	
+	
+	position: absolute;
+	margin: 74px -5px;
+	padding: 26px 0;		
+	
+}
+
+.oranges {	
+	position: absolute;
+	width: 280px;
+	background-image: url(../img/for-yellow-block.png);
+	margin: -22px 0px;
+	padding: 26px 0;	
 }
 
 .p1 {
@@ -88,8 +88,7 @@
 	font-size: 16px;
 	color: #575b66;
 	position: absolute;
-	top: 28px;
-	left: 86px;	
+	margin: -107px 86px;
 }
 
 .p2 {	
@@ -97,18 +96,16 @@
 	font-size: 52px;
 	color: #9aaf4e;
 	position: absolute;
-	top: 81px;
-	left: 70px;
+	margin: -54px 69px;
 }
 
 .p3 {
 	font-family: GothamPro;
 	font-size: 14px;
-	letter-spacing: 0.12px;
+	letter-spacing: 0.13px;
 	color: #8a8e99;
 	position: absolute;
-	top: 145px;
-	left: 56px;
+	margin: 10px 56px;
 }
 
 .p4 {
@@ -116,9 +113,107 @@
 	font-size: 16px;
 	color: #876c27;
 	position: absolute;
-	top: 226px;
-	left: 46px;
+	margin: -13px 51px;
+}	
+			
+	
+.block_right {
+	width: 540px;
+	background: #FFFFFF;
+	box-sizing: border-box;	
+	float: right;
 }
 
+.block1 {
+	font-family: GothamPro;
+	font-size: 16px;
+	color: #8a8e99;
+	line-height: 1.5;	
+    margin-top: 54px;
+    margin-left: 61px;
+    margin-right: 50px;
+    margin-bottom: 10px;  
+}
 
+.sentence {
+	font-family: GothamProMedium;
+}
+
+.block2 {
+	position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-bottom: 12px;
+}
+
+.text {	
+	font-family: GothamPro;
+	font-size: 14px;
+	color: #8a8e99;	
+	text-transform: uppercase;
+	margin-top: -21px;
+    margin-left: 12px;
+    float: left;
+    position: absolute;		
+}
+
+.sprint {
+	height: 26px;
+	width: 130px;
+    background-image: url(../img/skrine_sing.png);
+    margin-top: -27px;
+    margin-left: 182px;
+    position: absolute;    
+}
+
+.block3 {
+	background: #6fa93d;	
+	border-radius: 27px;
+	position: relative;	
+	padding-top: 54px;	
+	margin-top: 28px;
+	margin-left: 59px;	
+	margin-right: 203px;
+	display: block; 
+}
+
+.buy {
+	font-size: 16px;
+    font-family: "GothamPro";
+  	color: #FFFFFF;    
+    margin: -36px 51px;	
+    position: absolute;	
+}
+
+.block4 {
+	font-size: 16px;
+    font-family: "GothamPro";
+    color: #575b66;
+    line-height: 1.5;
+    margin-top: 33px;
+	margin-left: 62px;
+	margin-right: 40px;
+	margin-bottom: 29px;
+}
+
+.a:hover {
+	text-decoration: none;
+}
+
+.block5 {
+	background: #fac746;	
+	border-radius: 27px;		
+	padding-top: 46px;	
+	margin-top: -26px;
+	margin-left: 60px;
+	margin-bottom: 61px;
+	margin-right: 281px; 
+}
+
+.order {
+	font-size: 14px;
+    font-family: "GothamPro";
+  	color: #876c27;    
+    margin: -33px 39px;     	
+}
 
