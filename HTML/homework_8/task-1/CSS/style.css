@@ -1,0 +1,72 @@
+@font-face {
+	font-family: HelveticaRegular;
+	src: local("HelveticaRegular"),
+	url("../fonts/helvetica_regular.ttf");
+	font-style: normal;
+	font-weight: normal;	
+}
+
+@font-face {
+	font-family: HelveticaBold;
+	src: local("HelveticaBold"),
+	url("../fonts/9206.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+
+
+.body {	
+	width: 800px;
+	margin: 0 auto;	
+	background-image: url("../img/fon.png"); 
+	box-sizing: border-box;
+		
+	overflow: hidden;
+	padding-top: 126px;
+	padding-left: 6px;
+}
+
+.block1 {
+	width: 370px;
+	border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+  	background-color: rgba(255, 255, 255, 0.2);
+  	opacity: 0.4;
+  	box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  	
+  	margin: 0px auto;	  
+	padding: 134px 0;
+	border-radius: 8px;
+	position: relative;
+  	
+}
+.miniblock {
+	width: 23px;
+	padding-top: 7px;
+	padding-left: 60px;
+	border-style: solid;
+  	border-width: 1px;
+  	border-radius: 8px;
+  	border-color: rgb(255, 255, 255);
+  	background-color: rgb(16, 16, 16);
+  	opacity: 0.4;
+  	box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
+	position: absolute;
+	margin: -107px 143px;
+}
+.text1 {                              
+  font-size: 17px;
+  font-family: "HelveticaBold";
+  color: rgb(255, 255, 255);
+  
+  line-height: 1.167;
+  text-align: center;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 157px;
+  top: 56px;
+  
+}
