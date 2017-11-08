@@ -46,58 +46,71 @@
 	font-weight: normal;	
 }
 
-.block1 {
-	width: 1900px;
-	background-image: url("../img/fon1.png");    
-	box-sizing: border-box;	
-	margin: 0 auto;
-	color: #FFFFFF;		
-}
+.container {
+	width: 100%;
+	background-image: url("../img/fon1.png");
+	background-size: cover;	
+	padding-bottom: 710px;	
+	box-sizing: border-box;
+}	
 
-.box {
+.block1 {
 	width: 1170px;
 	margin: 0 auto;
-	padding-top: 84px;
-	padding-bottom: 341px;			
 }
 
-.text1 {	
-	font-size: 60px;
-	
+.box1 {
+	width: 707px;
+	box-sizing: border-box;
+	margin: 0 auto;
+				
+}
+
+.box2 {
+	width: 569px;
+	float: right;
+	box-sizing: border-box;
+}
+
+.text1 {
+	padding-top: 85px;	
+	font-size: 60px;	
 	font-family: "GothamProBold";
+	color: #FFFFFF;
 	line-height: 1.23;
 	text-align: center;
-	padding-bottom: 4px;	
+	padding-bottom: 6px;	
 }
 
 .text2 {
 	font-size: 30px;
 	font-family: "GothamProRegular";
 	color: #a8afd7;
-	text-align: center;	
+	text-align: center;
+	padding-bottom: 126px;	
 }
 
+
+
 .text3 {
-	width: 50%;
+	width: 453px;
 	font-size: 42px;
 	font-family: "GothamProMedium";
 	color: #b6f1ff;
 	text-align: left;
-	line-height: 1.2;	
-	padding-top: 128px;
-	padding-left: 600px;
+	line-height: 1.2;
+	margin-bottom: 56px;	
+	
 }
 
 .text4 {
-	width: 50%;
+	width: 443px;
 	font-size: 30px;
 	font-family: "GothamProRegular";
 	color: #a8afd7;
 	text-align: left;
-	line-height: 1.55;
-	padding-left: 600px;
-	padding-top: 55px;
-	padding-bottom: 91px;	
+	line-height: 1.55;	
+	margin-bottom: 92px;	
 }
 
 a {
@@ -113,31 +126,11 @@ a {
 	padding: 21px 31px;
 	text-align: center;
 	text-decoration: none;
-	margin-left: 601px;
-}
+
+}	
+	
 
 .block2 {
-	width: 1140px;
-	position: absolute;
-	box-sizing: border-box;	
-	margin: 0 auto;	  
-	overflow: hidden;
+	
 }
 
-/*.stars {	
-	width: 1837px;	
-	background-image: url("../img/Untitled-5.png");    
-    padding: 112px 0;
-	margin-left: 39px;
-	margin-top: -1px; 
-}
-.Sputnik {
-	width: 196px;
-	background-image: url("../img/Untitled-1.png");
-    float: left;
-	box-sizing: border-box;	
-	margin-left: 140px;
-	margin-top: 44px; 
-	padding: 80px 0;
-}
-*/
