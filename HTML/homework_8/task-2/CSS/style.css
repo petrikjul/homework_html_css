@@ -27,13 +27,117 @@
 	src: local("GothamProMedium"),
 	url("../fonts/GothamProMedium.ttf");
 	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	
-}.body {	
-	width: 800px;
-	margin: 10px auto;
-	overflow: hidden;
-	background: #FFFFFF;
-	box-sizing: border-box;	
+	font-weight: normal;	
 }
+
+@font-face {
+	font-family: GothamProBold;
+	src: local("GothamProBold"),
+	url("../fonts/GothamPro-Bold.ttf");
+	font-style: normal;
+	font-weight: normal;	
+}
+
+@font-face {
+	font-family: GothamProRegular;
+	src: local("GothamProRegular"),
+	url("../fonts/GothamPro-Regular.ttf");
+	font-style: normal;
+	font-weight: normal;	
+}
+
+.block1 {
+	width: 1900px;
+	background-image: url("../img/fon1.png");    
+	box-sizing: border-box;	
+	margin: 0 auto;
+	color: #FFFFFF;		
+}
+
+.box {
+	width: 1170px;
+	margin: 0 auto;
+	padding-top: 84px;
+	padding-bottom: 341px;			
+}
+
+.text1 {	
+	font-size: 60px;
+	
+	font-family: "GothamProBold";
+	line-height: 1.23;
+	text-align: center;
+	padding-bottom: 4px;	
+}
+
+.text2 {
+	font-size: 30px;
+	font-family: "GothamProRegular";
+	color: #a8afd7;
+	text-align: center;	
+}
+
+.text3 {
+	width: 50%;
+	font-size: 42px;
+	font-family: "GothamProMedium";
+	color: #b6f1ff;
+	text-align: left;
+	line-height: 1.2;	
+	padding-top: 128px;
+	padding-left: 600px;
+}
+
+.text4 {
+	width: 50%;
+	font-size: 30px;
+	font-family: "GothamProRegular";
+	color: #a8afd7;
+	text-align: left;
+	line-height: 1.55;
+	padding-left: 600px;
+	padding-top: 55px;
+	padding-bottom: 91px;	
+}
+
+a {
+	width: 50%;
+	border-radius: 5px;
+	border-bottom-style: solid; 
+	border-bottom-color: rgb(222, 14, 21);
+    background-color: rgb(255, 22, 30);
+	font-size: 24px;
+	font-family: "GothamProBlack";
+	text-transform: uppercase;	
+	color: rgb(255, 255, 255);
+	padding: 21px 31px;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 601px;
+}
+
+.block2 {
+	width: 1140px;
+	position: absolute;
+	box-sizing: border-box;	
+	margin: 0 auto;	  
+	overflow: hidden;
+}
+
+/*.stars {	
+	width: 1837px;	
+	background-image: url("../img/Untitled-5.png");    
+    padding: 112px 0;
+	margin-left: 39px;
+	margin-top: -1px; 
+}
+.Sputnik {
+	width: 196px;
+	background-image: url("../img/Untitled-1.png");
+    float: left;
+	box-sizing: border-box;	
+	margin-left: 140px;
+	margin-top: 44px; 
+	padding: 80px 0;
+}
+*/
