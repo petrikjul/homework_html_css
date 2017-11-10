@@ -17,15 +17,16 @@
 
 
 
-.body {	
+.container {	
 	width: 800px;
 	margin: 0 auto;	
 	background-image: url("../img/fon.png"); 
 	box-sizing: border-box;
-		
-	overflow: hidden;
-	padding-top: 126px;
-	padding-left: 6px;
+	background-size: cover;
+
+	padding-bottom: 191px;	
+	padding-top: 136px;
+	
 }
 
 .block1 {
@@ -38,15 +39,16 @@
   	box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
   	
   	margin: 0px auto;	  
-	padding: 134px 0;
+	
 	border-radius: 8px;
-	position: relative;
+	padding-bottom: 191px;
+	
   	
 }
 .miniblock {
-	width: 23px;
+	width: 82px;
 	padding-top: 7px;
-	padding-left: 60px;
+	margin: 0 auto;
 	border-style: solid;
   	border-width: 1px;
   	border-radius: 8px;
@@ -54,19 +56,34 @@
   	background-color: rgb(16, 16, 16);
   	opacity: 0.4;
   	box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
-	position: absolute;
-	margin: -107px 143px;
+  	margin-top: 27px;
+
+	
+	
 }
-.text1 {                              
-  font-size: 17px;
-  font-family: "HelveticaBold";
-  color: rgb(255, 255, 255);
-  
-  line-height: 1.167;
-  text-align: center;
-  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
-  position: absolute;
-  left: 157px;
-  top: 56px;
+.text1 {
+    margin-top: 37px;
+    font-size: 17px;
+    font-family: "HelveticaBold";
+    color: rgb(255, 255, 255);  
+    line-height: 1.167;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+  padding-bottom: 50px;
   
 }
+
+a {
+	
+	border-radius: 5px;
+	border-style: groove;	
+    background-color: #a7c685;
+	font-size: 14px;
+	font-family: "HelveticaBold";		
+	color: rgb(255, 255, 255);
+	padding: 10px 116px;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 37px;
+
+}	
