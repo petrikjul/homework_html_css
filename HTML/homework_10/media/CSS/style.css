@@ -1,0 +1,90 @@
+html, body {
+	width: 1600px;
+	display:inline-block;
+	word-wrap: break-word;
+	padding: 15px;		 
+}
+
+
+@media (min-width: 1600px) {
+	.block {
+		width: 1170px;
+		font-size: 20px;
+	    color: #FF0000;
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1600px){
+	.block {
+		width: 1169px;
+		font-size: 16px;
+	    color: #008000;		
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+	.block {
+		width: 970px;
+		font-size: 14px;
+	    color: #800080;		
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+	.block {
+		width: 750px;
+		font-size: 16px;
+	    color: #000;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+	.block {
+		width: 320px;
+		font-size: 14px;
+	    color: #FFFF00;		
+	}
+}
+
+
+
+.one {
+	width: 390px;
+ 	border: 3px solid green; 	
+ 	float: left; 	
+}
+.two {
+	width: 200px; 	
+ 	float: left;
+ 	border: 3px solid green;	
+}
+.three {
+	width: 286px;
+ 	float: left;
+ 	border: 3px solid green; 	
+}
+.foor {
+	width: 270px;
+ 	float: left;
+ 	border: 3px solid green; 	
+}
+.five {
+	width: 320px;
+ 	float: left;
+ 	border: 3px solid green; 	
+}
+.six {
+	width: 300px;
+ 	float: left;
+ 	border: 3px solid green; 	
+}
+.seven {
+	width: 256px;
+ 	float: left;
+ 	border: 3px solid green; 	
+}
+.eight {
+	width: 270px;
+ 	float: left;
+ 	border: 3px solid green; 	
+}
