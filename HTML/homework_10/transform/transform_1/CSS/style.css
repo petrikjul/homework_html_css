@@ -14,54 +14,40 @@ div {
 	padding-bottom: 10px;
 	padding-top: 12px;
 	margin-bottom: 20px;
+	transition: 3s linear;
+	cursor: pointer;
 }
 
-a {
-	
+a {	
 	text-decoration: none;
-	color: #FFFFFF;
-	
-}
-
-.one { 	 
- 	 transition:  background 1s ease-in-out 2s; 	  	 	
+	color: #FFFFFF;	
 }
 
 .one:hover {	
 	background-color: #D3E537;
 }
 
-.colors {
-	display: inline-block;
-	transition:  color 1s ease-in-out 2s;
-}
-
 .colors:hover {
 	color: #000;	
 }
 
-.two {
-	transition-property: width;
-	transition:  background 3s ease-in-out 1s;  		
-}
 
 .two:hover {
-	width: 300px;	
+  width: 400px;
+} 	
+
+.three:hover {
+	opacity: 0.1; 	 	
 }
 
-.widths {
-
+.foor:hover {	
+    transform: rotate(360deg);
 }
 
-.three {
-	opacity: 0.4; 	 	
+.five:hover {
+	transform: scale(2);
 }
-.foor {
-	transform: rotate(8deg);
-}
-.five {
-	transform: scale(1.1,1.1);
-}
-.six {
-	transform: translate(25px,25px);
+
+.six:hover {
+	transform: translate(0px,50px);
 }

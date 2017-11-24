@@ -42,7 +42,7 @@ p {
 	}	
 	p {
 		font-size: 14px;
-	    color: #008000;
+	    color: purple;
 	}	
 	.container_img {
 		width: 33%;
@@ -55,7 +55,7 @@ p {
 	}	
 	p {
 		font-size: 16px;
-	    color: #008000;
+	    color: #000;
 	}	
 	.container_img {
 		width: 50%;
@@ -68,7 +68,7 @@ p {
 	}	
 	p {
 		font-size: 16px;
-	    color: #008000;
+	    color: yellow;
 	}	
 	.container_img {
 		width: 100%;
