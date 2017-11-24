@@ -1,0 +1,63 @@
+html, body {
+	width: 100%;
+	box-sizing: border-box;
+	margin-top: 100px;			 
+}
+
+div {
+	width: 100px;
+	height: 100px;
+	background-color: #FFB6C1;	
+}
+
+.one { 	 	
+ 	 background-color: #FFFF00;
+ 	 position: center center;
+ 	 margin: 0 auto;
+ 	 position: relative; 	  	
+}
+
+.two {
+	 
+	 animation: rotateto 10s infinite linear;
+	 transform-origin: 0px 0px; 
+	 position: absolute;		
+}
+
+.three {
+	 animation: rotateto 10s infinite linear;
+	 transform-origin: 100% 0%;
+	 position: absolute;	 	
+}
+
+@keyframes rotateto {
+	from {
+		transform: rotate(0deg);
+	}
+	
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.foor {
+	animation: rotate 10s infinite linear;
+	transform-origin: 0% 100%;
+	position: absolute;
+}
+
+.five {
+	animation: rotate 10s infinite linear;
+	transform-origin: 100% 100%;
+	position: absolute;
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	
+	to {
+		transform: rotate(-360deg);
+	}
+}

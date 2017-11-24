@@ -1,0 +1,67 @@
+html, body {
+    width: 100%;	
+	box-sizing: border-box;	
+}
+
+div {
+	width: 500px;
+	margin: 0 auto;
+	background-color: #817F7E;
+	border: 4px solid #000;		
+	font-size: 20px;
+	font-family: Arial;			
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 12px;
+	margin-bottom: 20px;
+}
+
+a {
+	
+	text-decoration: none;
+	color: #FFFFFF;
+	
+}
+
+.one { 	 
+ 	 transition:  background 1s ease-in-out 2s; 	  	 	
+}
+
+.one:hover {	
+	background-color: #D3E537;
+}
+
+.colors {
+	display: inline-block;
+	transition:  color 1s ease-in-out 2s;
+}
+
+.colors:hover {
+	color: #000;	
+}
+
+.two {
+	transition-property: width;
+	transition:  background 3s ease-in-out 1s;  		
+}
+
+.two:hover {
+	width: 300px;	
+}
+
+.widths {
+
+}
+
+.three {
+	opacity: 0.4; 	 	
+}
+.foor {
+	transform: rotate(8deg);
+}
+.five {
+	transform: scale(1.1,1.1);
+}
+.six {
+	transform: translate(25px,25px);
+}
