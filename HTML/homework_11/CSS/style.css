@@ -1,13 +1,52 @@
+.wrapper {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.clearfix::after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+h1 {	
+	font-family: 'LibreBaskervilleRegular';
+	font-weight: 100;
+	font-size: 76px;	
+}	
+
+h2 {
+	width: 100%;
+	font-family: 'LibreBaskervilleBold';	
+	font-size: 60px;
+	line-height: 50px;
+	color: #000;
+	margin: 0;	
+}
+
+h3 {
+	font-family: 'PoppinsRegular', sans-serif;	
+	font-size: 30px;
+	font-weight: 100;
+	color: #FFFFFF;
+	line-height: 30px;
+	margin-top: 0;
+    margin-bottom: 42px;
+}
+
+p {
+	font-family: 'PoppinsRegular', sans-serif;	
+	font-size: 15px;
+	color: #616161;
+	line-height: 15px;	
+}
+
+/* header ""logotype and menu"" start */
 .header {
 	width: 100%; 
 	box-sizing: border-box;
 	background: #FFFFFF;
 	padding: 25px;	 
-}
-
-.wrapper {
-	width: 1140px;
-	margin: 0 auto;
 }
 
 .logo {
@@ -18,31 +57,28 @@ nav {
 	float: right;	
 }
 
-.menu{
-	list-style: none;
-	font-family: 'Poppins', sans-serif;
-	font-size: 14px;		
+ul {
+	font-family: 'PoppinsMedium', sans-serif;
+	font-size: 14px;	
+	list-style: none;			
 	margin: 0;
 	padding: 4px;		
 }
 
-.me {	
+li {	
 	margin-right: 5px;
 	padding: 3px;	
 	display: inline-block;
 }
 
-.me a {
+li a {
 	text-decoration: none;
 	color: #3f4049;	
 }
 
-.clearfix::after {
-	display: block;
-	content: "";
-	clear: both;
-}
 
+
+/* section_1 "main page" start*/
 .section_1 {
 	width: 100%;
 	box-sizing: border-box;
@@ -50,19 +86,18 @@ nav {
 	margin-bottom: 151px;
 }
 
-.topic {
-	width: 67%;
+.heading-page {
+	width: 100%;
 	margin: 0 auto;	
 	text-align: center;
-	padding-top: 120px; 
+	padding-top: 120px;
+	padding-bottom: 175px; 
 }
 
-h1 {
-	font-family: 'LibreBaskervilleRegular';
-	font-weight: 100;
-	font-size: 60px;
+.heading-page h1 {
+	width: 73%;	
 	color: #FFFFFF;
-	margin-top: 0;
+	margin: 0 auto;
 	margin-bottom: 18px;
 	text-align: center;
 }	
@@ -75,18 +110,15 @@ h1 {
 	text-transform: uppercase;
 	text-align: center;
 	margin: 0 auto;
-	margin-top: 60px;
-	margin-bottom: 83px;
-	
-		
+	margin-top: 50px;
+	margin-bottom: 83px;		
 }
 
 .bottom a {
 	text-decoration: none;
 	display: inline-block;
 	font-family: 'PoppinsSemiBold', sans-serif;
-	font-size: 14px;
-	
+	font-size: 14px;	
 	color: #FFFFFF;
 }
 
@@ -95,8 +127,7 @@ h1 {
 	font-family: 'PoppinsMedium', sans-serif;
 	font-size: 18px;
 	margin: 0 auto;
-	text-transform: uppercase;
-	padding-bottom: 175px;
+	text-transform: uppercase;	
 }
 
 .icon_green {
@@ -127,12 +158,12 @@ h1 {
 	margin-bottom: 36px;
 }
 
+/* section_2 "01-About Us" start */
 .section_2 {
 	width: 100%;
 	box-sizing: border-box;
 	margin-bottom: 147px;
 }
-
 
 .block_1 {
 	float: left;
@@ -149,31 +180,20 @@ h1 {
 	text-align: left;
 }
 
-h3 {
-	width: 100%;
-	font-family: 'LibreBaskervilleBold';	
-	font-size: 60px;
-	line-height: 50px;
-	color: #000;
-	margin: 0;	
-}
-
-
-
-.texts {
+.text-Analytics {
 	width: 100%;
 	padding-top: 12px;	
 }
 
-p {	
+.text-Analytics p {	
 	font-family: 'PoppinsRegular', sans-serif;	
 	font-size: 15px;
 	color: #616161;
 	line-height: 1.8;	
-	margin-top: 32px;
-		
+	margin-top: 32px;		
 }
 
+/* section_3 "02-Our Focus" start */
 .section_3 {
 	width: 100%;
 	box-sizing: border-box;
@@ -183,7 +203,7 @@ p {
 	background-repeat: no-repeat;
 }
 
-.topic_2 {
+.topic-pages {
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
@@ -191,7 +211,7 @@ p {
 	padding-bottom: 82px;
 }
 
-.text1 {	
+.topic-pages p {
 	font-family: 'PoppinsRegular', sans-serif;	
 	font-size: 18px;
 	color: #616161;
@@ -200,102 +220,85 @@ p {
 	margin-bottom: 0;	
 }
 
-.icons2 {
-	width: 100%;
-	font-family: 'PoppinsMedium', sans-serif;
-	font-size: 18px;
-	
-	padding-bottom: 150px;
+.icons-Design  {
+	padding-bottom: 150px;		 	
+	font-family: 'PoppinsMedium', sans-serif;	
+	font-size: 20px;	
+	line-height: 20px;
+	text-align: center;
 }
 
-.icon_1 {
+.icon_Web {
 	width: 23%;
 	background-color: #FFFFFF;
 	border-bottom: 4px solid #fc5f45;
 	float: left;
-	margin-right: 30px;	 	
-	font-family: 'PoppinsMedium', sans-serif;	
-	font-size: 18px;	
-	line-height: 18px;
-	text-align: center;
+	margin-right: 30px;	
 	padding-top: 68px;
 }
-.p2 {
-	width: 69%;
-	margin: 0 auto;
-	padding-bottom: 65px;
-    padding-top: 32px;	 
-}
-.ic {
-	
-	margin-bottom: 27px;	
-}
 
-.icon_2 {
+.icon_UX {
 	width: 23%;
 	background-color: #FFFFFF;
 	border-bottom: 4px solid #38c695;
 	float: left;
-	margin-right: 30px;	 	
-	font-family: 'PoppinsMedium', sans-serif;	
-	font-size: 18px;	
-	line-height: 18px;
-	text-align: center;
+	margin-right: 30px;	
 	padding-top: 59px;
 }
 
-.icon_3 {
+.icon_Photogrpahy {
 	width: 23%;
 	background-color: #FFFFFF;
 	border-bottom: 4px solid #b27cf5;
 	float: left;
-	margin-right: 30px;	 	
-	font-family: 'PoppinsMedium', sans-serif;	
-	font-size: 18px;	
-	line-height: 18px;
-	text-align: center;
+	margin-right: 30px;	
 	padding-top: 65px;
 }
 
-.icon_4 {
+.icon_App {
 	width: 23%;
 	background-color: #FFFFFF;
 	border-bottom: 4px solid #feb960;
-	float: left;		 	
-	font-family: 'PoppinsMedium', sans-serif;	
-	font-size: 18px;	
-	line-height: 18px;
-	text-align: center;
+	float: left;	
 	padding-top: 68px;
 }
 
-/* vidio */
+.icons-Design p {
+	width: 69%;
+	margin: 0 auto;
+	padding-bottom: 65px;
+    padding-top: 34px;	 
+}
 
-.vidio {
+.icons-Design img {	
+	margin-bottom: 34px;	
+}
+
+
+
+/* section_4  "vidio" start */
+
+.section_4 {
 	width: 100%;
 	box-sizing: border-box;
-	background-color: #3f4049;
+	background-color: #3f4049;	
+}
+
+.video-click {
 	margin: 0 auto;
 	text-align: center;
 	padding-top: 145px;
 	padding-bottom: 149px;
 }
 
-.text2 {
-	font-family: 'PoppinsRegular', sans-serif;	
-	font-size: 30px;
-	color: #FFFFFF;
-	line-height: 30px;
-	margin-top: 0;
-    margin-bottom: 42px;
-}
-.click {
+.video-click p {
 	color: #FFFFFF;
 	margin-top: 40px;
 	margin-bottom: 0;
 }
 
-.section_4 {
+/* section_5 "03-Portfolio" start*/
+.section_5 {
 	width: 100%;
 	box-sizing: border-box;
 	background-image: url('../img/Untitled-8.png');
@@ -315,8 +318,8 @@ p {
 }
 
 
-/* section_5 */
-.section_5 {
+/* section_6 "04-Our Team" start*/
+.section_6 {
 	width: 100%;
 	box-sizing: border-box;
 	background: #f7f7f7;
@@ -328,7 +331,7 @@ p {
 
 
 
-.icons3 {
+.icons-team {
     width: 100%;	
 	
 }
@@ -375,8 +378,7 @@ p {
 .icon_13 {
 	width: 23%;
 	background-color: #FFFFFF;
-	border-bottom: 4px solid #feb960;
-	
+	border-bottom: 4px solid #feb960;	
 	float: left;	
 	font-family: 'PoppinsMedium', sans-serif;	
 	font-size: 18px;
@@ -385,16 +387,14 @@ p {
 	text-align: center;	
 }
 
-.grad {
+.icons-team img {
 	margin-bottom: 21px;
 }
 
-.p1 {
+.icons-team p {
 	margin-top: 10px;
 	margin-bottom: 22px;
 }
-
-
 
 .box {
 	width: 100%;
@@ -423,10 +423,8 @@ p {
     margin-right: 57px;
 }
 
-
-
 .see {	
-	width: 8%;
+	width: 9%;
 	padding-top: 145px;
 	text-align: left;
 	padding-left: 0;
@@ -449,8 +447,8 @@ p {
 	color: #616161;
 }
 
-/* coffee */
-.coffee {
+/* section_7 "coffee" start */
+.section_7 {
 	width: 100%;
 	box-sizing: border-box;
 	background-image: url('../img/cup.png');
