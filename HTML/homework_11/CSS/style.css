@@ -77,7 +77,6 @@ li a {
 }
 
 
-
 /* section_1 "main page" start*/
 .section_1 {
 	width: 100%;
@@ -315,8 +314,7 @@ li a {
 	width: 32%;
 	margin: 7px;
     float: left;
-}
-
+}	
 
 /* section_6 "04-Our Team" start*/
 .section_6 {
@@ -327,13 +325,9 @@ li a {
 	background-position: 50% 0%;
 	background-repeat: no-repeat;
 	padding-bottom: 150px;
-}	
-
-
-
+}
 .icons-team {
-    width: 100%;	
-	
+    width: 100%;
 }
 
 .icon_10 {
@@ -403,48 +397,60 @@ li a {
 	margin-top: 50px;
 }
 
-.text3 {
-	width: 59%;
-	font-family: 'PoppinsMedium', sans-serif;	
-	font-size: 20px;
-	color: #272727;
-	padding-top: 73px;
+.about_bennet {
+	width: 56%;	
+	padding-top: 75px;
 	padding-left: 83px;
-	padding-bottom: 55px;
+	padding-bottom: 53px;
 	text-align: left;
 	float: left;
-	margin-right: 88px; 
+	margin-right: 110px; 
+}
+.topic-text {
+	font-family: 'Poppins', sans-serif;	
+	font-size: 20px;
+	font-weight: 500;	
+	color: #272727;
 }
 
+.text-Monetization {
+	font-family: 'Poppins';
+	line-height: 1.8;
+	margin-top: 32px;
+	margin-bottom: 0;
+}
 
-.far {
+.link {
 	padding-top: 180px;
     float: left;
     margin-right: 57px;
 }
+.icons-team .link img {
+	margin-bottom: 0;
+}
 
-.see {	
-	width: 9%;
-	padding-top: 145px;
-	text-align: left;
+
+
+.social-connect ul {	
+	width: 10%;
+	font-family: 'Poppins', sans-serif;	
+	font-size: 15px;
+	padding-top: 145px;	
 	padding-left: 0;
-	float: left;
-	list-style: none;
-	margin: 0;
-	display: inline-block;
+	float: left;	
+	margin: 0;	 
 }  
 
-.sees {
-	
+.social-connect li {	
 	margin-bottom: 10px;
     clear: both;
 }
 
-.sees a {
-	text-decoration: none;
-	font-family: 'PoppinsRegular', sans-serif;	
-	font-size: 15px;
+.social-connect li a {	
 	color: #616161;
+}
+.icons-team .social-connect img {
+	margin-bottom: 0;
 }
 
 /* section_7 "coffee" start */
@@ -453,41 +459,30 @@ li a {
 	box-sizing: border-box;
 	background-image: url('../img/cup.png');
 	background-repeat: no-repeat;
-	text-align: center;
-	
+	text-align: center;	
 }
 
-.icons4 {
-	width: 100%;
-	
+.icons-stats {
+	width: 100%;	
 	padding-top: 145px;
 	padding-bottom: 129px;
 }
 
-.cof {
-	width: 22%;
-	float: left;
-	
-	font-family: 'PoppinsMedium', sans-serif;	
-	font-size: 18px;
-	color: #616161;
-	
-	
+.radios {		
+	margin-top: 18px;	
 }
 
-.text4 {
-	
-	font-family: 'PoppinsMedium', sans-serif;	
+
+.records {
+	width: 25%;
+	float: left;
+	margin: 0 auto;	
+}
+
+.record {	
+	font-family: 'Poppins', sans-serif;	
 	font-size: 20px;
 	color: #FFFFFF;
-	margin: 30px;
-}
-
-.p4 {
-	font-family: 'PoppinsRegular', sans-serif;	
-	font-size: 15px;
-	color: #fefefe;
-	line-height: 15px;	
-	
+	margin: 30px 30px 13px 30px;
 }
 
