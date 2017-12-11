@@ -20,8 +20,8 @@ h2 {
 	font-family: 'LibreBaskervilleBold';	
 	font-size: 60px;
 	line-height: 50px;
-	color: #000;
-	margin: 0;	
+	color: #313131;
+	margin: -75px 0 auto 0;	
 }
 
 h3 {
@@ -39,6 +39,33 @@ p {
 	font-size: 15px;
 	color: #616161;
 	line-height: 15px;	
+}
+
+.topic-pages {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;	
+	padding-bottom: 82px;
+}
+
+.numbers {
+	width: 30%;
+    font-family: 'Poppins', sans-serif;	
+	font-size: 275px;
+	font-weight: 700;
+	line-height: 219px;
+	color: #f0f0f0;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.topic-pages p {
+	font-family: 'PoppinsRegular', sans-serif;	
+	font-size: 18px;
+	color: #616161;
+	line-height: 18px;	
+	margin-top: 40px;
+	margin-bottom: 0;	
 }
 
 /* header ""logotype and menu"" start */
@@ -75,7 +102,7 @@ li a {
 	text-decoration: none;
 	color: #3f4049;	
 }
-
+/* header ""logotype and menu"" finish */
 
 /* section_1 "main page" start*/
 .section_1 {
@@ -157,7 +184,9 @@ li a {
 	margin-bottom: 36px;
 }
 
-/* section_2 "01-About Us" start */
+/* section_1 "main page" finish */
+
+/* section_2 "01 - About Us" start */
 .section_2 {
 	width: 100%;
 	box-sizing: border-box;
@@ -170,18 +199,37 @@ li a {
 
 .block_2 {
 	width: 57%;
-	background-image: url('../img/Untitled-6.png');
-	box-sizing: border-box;	
+	background-color: #ffffff;
+	box-shadow: -9px 0px 37px -23px;
+	margin-bottom: 77px;	
 	margin-left: -65px;
 	margin-top: 75px;
 	float: left;
-	padding: 100px 80px 100px 88px;
 	text-align: left;
 }
 
+.number-01 {
+	margin-left: 0;
+	width: 30%;
+    font-family: 'Poppins', sans-serif;	
+	font-size: 275px;
+	font-weight: 700;
+	line-height: 219px;
+	color: #f0f0f0;
+	padding-bottom: 100px;
+	padding: 0;
+}
+
+.block_2 h2 {
+	padding-left: 80px;
+	margin: -130px 0 auto 0;
+}
+
 .text-Analytics {
-	width: 100%;
-	padding-top: 12px;	
+	width: 75%;
+	padding-top: 12px;
+	padding-left: 80px;
+	padding-bottom: 80px;	
 }
 
 .text-Analytics p {	
@@ -189,34 +237,49 @@ li a {
 	font-size: 15px;
 	color: #616161;
 	line-height: 1.8;	
-	margin-top: 32px;		
+	margin-top: 32px;
 }
 
-/* section_3 "02-Our Focus" start */
+.lines {
+	width: 100%;
+}
+
+.line {
+	height: 4px;
+}
+
+.line.red {
+	width: 25%;
+	background: #fc5f45;
+	float: left;
+}
+
+.line.green {
+	width: 25%;
+	background: #38c695;
+	float: left;
+}
+
+.line.purple {
+	width: 25%;
+	background: #b27cf5;
+	float: left;
+}
+
+.line.orange {
+	width: 25%;
+	background: #feb960;
+	float: left;
+}
+/* section_2 "01 - About Us" finish */
+
+/* section_3 "02 - Our Focus" start */
 .section_3 {
 	width: 100%;
 	box-sizing: border-box;
 	background: #f7f7f7;
-	background-image: url('../img/Untitled-7.png');
 	background-position: 50% 0%;
 	background-repeat: no-repeat;
-}
-
-.topic-pages {
-	width: 100%;
-	margin: 0 auto;
-	text-align: center;
-	padding-top: 147px;
-	padding-bottom: 82px;
-}
-
-.topic-pages p {
-	font-family: 'PoppinsRegular', sans-serif;	
-	font-size: 18px;
-	color: #616161;
-	line-height: 18px;	
-	margin-top: 40px;
-	margin-bottom: 0;	
 }
 
 .icons-Design  {
@@ -272,11 +335,9 @@ li a {
 .icons-Design img {	
 	margin-bottom: 34px;	
 }
-
-
+/* section_3 "02 - Our Focus" finish */
 
 /* section_4  "vidio" start */
-
 .section_4 {
 	width: 100%;
 	box-sizing: border-box;
@@ -295,12 +356,12 @@ li a {
 	margin-top: 40px;
 	margin-bottom: 0;
 }
+/* section_4  "vidio" finish */
 
-/* section_5 "03-Portfolio" start*/
+/* section_5 "03 - Portfolio" start */
 .section_5 {
 	width: 100%;
 	box-sizing: border-box;
-	background-image: url('../img/Untitled-8.png');
 	background-position: 50% 0%;
 	background-repeat: no-repeat;
 	padding-bottom: 150px;
@@ -314,18 +375,19 @@ li a {
 	width: 32%;
 	margin: 7px;
     float: left;
-}	
+}
+/* section_5 "03 - Portfolio" finish */	
 
-/* section_6 "04-Our Team" start*/
+/* section_6 "04 - Our Team" start */
 .section_6 {
 	width: 100%;
 	box-sizing: border-box;
 	background: #f7f7f7;
-	background-image: url('../img/Untitled-9.png');
 	background-position: 50% 0%;
 	background-repeat: no-repeat;
 	padding-bottom: 150px;
 }
+
 .icons-team {
     width: 100%;
 }
@@ -425,11 +487,10 @@ li a {
     float: left;
     margin-right: 57px;
 }
+
 .icons-team .link img {
 	margin-bottom: 0;
 }
-
-
 
 .social-connect ul {	
 	width: 10%;
@@ -449,9 +510,11 @@ li a {
 .social-connect li a {	
 	color: #616161;
 }
+
 .icons-team .social-connect img {
 	margin-bottom: 0;
 }
+/* section_6 "04 - Our Team" finish */
 
 /* section_7 "coffee" start */
 .section_7 {
@@ -472,7 +535,6 @@ li a {
 	margin-top: 18px;	
 }
 
-
 .records {
 	width: 25%;
 	float: left;
@@ -485,4 +547,4 @@ li a {
 	color: #FFFFFF;
 	margin: 30px 30px 13px 30px;
 }
-
+/* section_7 "coffee" finish */
