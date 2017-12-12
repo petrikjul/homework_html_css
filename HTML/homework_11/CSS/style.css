@@ -21,7 +21,7 @@ h2 {
 	font-size: 60px;
 	line-height: 50px;
 	color: #313131;
-	margin: -75px 0 auto 0;	
+		
 }
 
 h3 {
@@ -43,7 +43,6 @@ p {
 
 .topic-pages {
 	width: 100%;
-	margin: 0 auto;
 	text-align: center;	
 	padding-bottom: 82px;
 }
@@ -67,6 +66,10 @@ p {
 	margin-top: 40px;
 	margin-bottom: 0;	
 }
+
+.topic-pages h2 {
+	margin: -75px 0 auto 0;
+}	
 
 /* header ""logotype and menu"" start */
 .header {
@@ -548,3 +551,90 @@ li a {
 	margin: 30px 30px 13px 30px;
 }
 /* section_7 "coffee" finish */
+
+/* section_8 "05 - Work Steps" start */
+.section_8 {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.block-vertical {
+	
+	
+}
+
+.blocks-fon {	
+	float: left;
+	margin-left: 292px;
+	margin-top: 50px;
+}
+
+.blocks-fon img {	
+	display: block;
+}
+
+.steps {
+	width: 40%;
+	float: left;
+	margin-left: -500px;
+}
+
+.text-Buyer {
+	width: 60%;
+	padding-left: 120px;
+	margin-top: -75px;
+	padding-bottom: 55px;
+}
+
+.step h3 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	color: #272727;
+	margin-bottom: 22px;
+	
+}
+
+.step p {
+	font-family: 'Poppins';
+	line-height: 1.8;
+	color: #272727;
+	
+}
+
+.step h2 {
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 45px;
+	color: #e0e0e0;
+	padding-left: 32px;
+    padding-top: 40px;
+    margin-top: 0;
+}
+
+.step {
+	width: 100%;
+	background-color: #FFFFFF;
+	box-shadow: 4px 1px 7px 0px;
+	
+}
+
+.reds {
+	border-bottom: 4px solid #fc5f45;
+	margin-left: -350px;    
+}
+
+.greens {
+	border-bottom: 4px solid #38c695;
+	margin-left: 350px;
+}	
+
+.purples {
+	border-bottom: 4px solid #b27cf5;
+	margin-left: -350px;    
+}
+
+.oranges {
+	border-bottom: 4px solid #feb960;
+	margin-left: 350px;    
+}
