@@ -1,0 +1,84 @@
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	line-height: 25px;
+	font-weight: 800;
+	color: #FFFFFF;
+}
+
+span {
+	color: #f7600e;
+}
+.section-1 {
+	background-image: url(../img/fon-sec-one.png);
+	padding-top: 50px;
+	
+}
+
+.header {
+	padding-bottom: 162px;
+}
+.menu p {
+	float: left;
+	margin-right: 15px;
+	font-size: 16px;
+	
+}
+
+.menu-icon {
+	float: right;
+}
+
+.main-page {
+	
+}
+
+.main-page h1 {
+	font-size: 70px;
+	line-height: 60px;
+	padding-bottom: 25px;
+}
+
+.main-text p {
+	font-size: 25px;
+	line-height: 1.5;
+	padding-bottom: 50px;
+}
+
+
+.buttom-orange {
+	background-color: #f7600e;
+	border-radius: 10px;
+	padding: 16px 72px;
+	float: left; 
+}
+
+.buttom-orange p, .buttom-black p {
+	font-size: 16px;
+	font-weight: 600;	
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.buttom-black {
+	background-color: #3f444a;
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+	padding: 15px 56px;
+	float: left;	 
+}
+
+.arrow {
+	margin-top: 170px;
+	margin-bottom: 50px;
+}
+
+
+
