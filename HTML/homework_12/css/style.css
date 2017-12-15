@@ -1,8 +1,10 @@
 p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
+	line-height: 14px;
 	font-weight: 400;
 	color: #FFFFFF;
+	margin-bottom: 0;
 }
 
 h1 {
@@ -13,72 +15,114 @@ h1 {
 	color: #FFFFFF;
 }
 
-span {
-	color: #f7600e;
+@media (min-width: 767px) and (max-width: 992px){
+	p {
+		font-size: 9.5px;
+	}
 }
+@media (max-width: 767px){
+	p {
+		font-size: 9px;
+	}
+}
+
+.text-orange {
+	color: #f7600e;	
+}
+
 .section-1 {
 	background-image: url(../img/fon-sec-one.png);
-	padding-top: 50px;
-	
+	padding-top: 48px;
+	padding-bottom: 48px;	
 }
 
 .header {
-	padding-bottom: 162px;
+	padding-bottom: 152px;
 }
+
 .menu p {
 	float: left;
 	margin-right: 15px;
 	font-size: 16px;
-	
+	margin-bottom: 0;
+	padding-top: 2px;	
 }
 
 .menu-icon {
 	float: right;
 }
 
-.main-page {
-	
+.pull-none {
+	float: none;
 }
 
-.main-page h1 {
-	font-size: 70px;
+.main-text {
+	font-size: 7rem;
 	line-height: 60px;
 	padding-bottom: 25px;
 }
 
-.main-text p {
-	font-size: 25px;
-	line-height: 1.5;
-	padding-bottom: 50px;
+.text-lorem {
+	font-size: 2.5rem;
+	line-height: 43px;
+	padding-bottom: 58px;
 }
 
-
-.buttom-orange {
-	background-color: #f7600e;
-	border-radius: 10px;
-	padding: 16px 72px;
-	float: left; 
-}
-
-.buttom-orange p, .buttom-black p {
-	font-size: 16px;
-	font-weight: 600;	
+.buttons {
 	text-transform: uppercase;
-	margin-bottom: 0;
+	font-size: 1.6rem;
+	font-weight: 600;
+	margin-bottom: 195px;	
 }
 
-.buttom-black {
-	background-color: #3f444a;
-	border: 1px solid #FFFFFF;
+.buttonl {
+	border: 1px solid rgba(255, 255, 255, 0.31);
 	border-radius: 10px;
-	padding: 15px 56px;
-	float: left;	 
+	min-width: 200px;
+	padding: 16px 72px;	
+	color: #FFFFFF;
+	float: left;
 }
 
-.arrow {
-	margin-top: 170px;
-	margin-bottom: 50px;
+.buttonr {
+	border: 1px solid rgba(255, 255, 255, 0.31);
+	border-radius: 10px;
+	min-width: 200px;		
+	padding: 16px 56px;
+	color: #FFFFFF;
+	float: right;
 }
 
+.buttonl:hover {
+	background-color: #f7600e;		
+	text-decoration: none;
+	border-color: #f7600e;
+	color: #FFFFFF;
+}
+
+.buttonr:hover {
+	background-color: #f7600e;	
+	text-decoration: none;
+	border-color: #f7600e;
+	color: #FFFFFF;		 
+}
+
+@media (max-width: 992px){
+	.header {
+	padding-bottom: 70px;
+}
+	.buttons{
+		margin-bottom: 70px;
+	}
+}
+
+@media (max-width: 495px){
+	.buttonl {
+		margin-bottom: 15px; 
+	}
+	.main-text {
+	font-size: 5rem;
+}
+}
 
 
