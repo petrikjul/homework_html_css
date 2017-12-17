@@ -1,3 +1,7 @@
+html, body {	
+	font-family: 'Open Sans', sans-serif;
+}
+
 p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
@@ -39,7 +43,7 @@ h1 {
 }
 
 .header {
-	padding-bottom: 152px;
+	padding-bottom: 148px;
 }
 
 .menu p {
@@ -139,45 +143,55 @@ h1 {
 	margin-bottom: 17px; 
 }
 
+/*  section-2  finish*/
+
+/*  section-3  start*/
+
 .section-3 {
 	background-image: url(../img/fon-sec3.png);
 	padding-top: 100px;
 	padding-bottom: 100px;	
 }
 
-.section-3__buttons {
-	text-transform: uppercase;
-	font-size: 1.6rem;
-	font-weight: 600;
-		
+
+
+.form-inline {
+	
 }
 
-.form-control {
+.form-inline {
 	border-radius: 10px;
-	min-width: 560px;
-	padding: 15px 160px;	
+	min-width: 564px;
+	padding: 9px 15px; 	
 	background-color: #FFFFFF;
-	float: left;
-	font-size: 16px;
+	
+	font-size: 16px;	
 	color: #3b434c;
 	font-weight: 300;
+	border: none;
 }
 
-.buttonr-small {
+.button-small {
 	background-color: #f7600e;
 	border-radius: 10px;
-	min-width: 200px;		
-	padding: 19px 94px;
+	border: none;
+	min-width: 270px;		
+	padding: 9px;
 	color: #FFFFFF;
-	float: right;
+	
 	font-size: 16px;
 	color: #3b434c;
-	font-weight: 300;
+	font-weight: 600;
 	text-decoration: none;
+	text-transform: uppercase;
 }
 
 
-
+.vcenter {
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+}
 
 
 
