@@ -1,0 +1,198 @@
+@font-face {
+	font-family: GothamProBlack;
+	src: local("GothamProBlack"),
+	url("../fonts/GothamProBlack.ttf");
+	font-style: normal;
+	font-weight: normal;	
+}
+
+@font-face {
+	font-family: GothamProLight;
+	src: local("GothamProLight"),
+	url("../fonts/GothamProLight.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: GothamPro;
+	src: local("GothamPro"),
+	url("../fonts/GothamPro.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: GothamProMedium;
+	src: local("GothamProMedium"),
+	url("../fonts/GothamProMedium.ttf");
+	font-style: normal;
+	font-weight: normal;	
+}
+
+@font-face {
+	font-family: GothamProBold;
+	src: local("GothamProBold"),
+	url("../fonts/GothamPro-Bold.ttf");
+	font-style: normal;
+	font-weight: normal;	
+}
+
+@font-face {
+	font-family: GothamProRegular;
+	src: local("GothamProRegular"),
+	url("../fonts/GothamPro-Regular.ttf");
+	font-style: normal;
+	font-weight: normal;	
+}
+
+.clearfix::after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+h1 {		
+	font-size: 60px;	
+	font-family: "GothamProBold";
+	color: #FFFFFF;
+	line-height: 65px;
+	text-align: center;
+	padding-bottom: 10px;
+	margin: 0;	
+}
+
+h3 {
+	font-size: 30px;
+	font-family: "GothamProRegular";
+	color: #a8afd7;
+	text-align: center;	
+	margin: 0;	
+}
+
+h2 {	
+	font-size: 42px;
+	font-family: "GothamProMedium";
+	color: #b6f1ff;	
+	margin: 0;	
+}
+
+p {
+	font-size: 42px;
+	font-family: "GothamProMedium";
+	color: #333333;	
+}
+
+.container {
+	width: 100%;
+}		
+
+/* section_1 */
+.section_1 {
+	width: 100%;	
+	background-image: url("../img/fon1.png");
+	background-size: 100% auto;	
+	background-repeat: no-repeat;	
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.box1 {
+	width: 61%;	
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-bottom: 126px;	 			
+}
+
+.box1 h2 {
+	text-align: left;
+	line-height: 46px;	
+}
+
+.box2 {
+	width: 50%;
+	float: right;
+	padding-bottom: 311px;	
+}
+
+.box2 h2 {	
+	padding-bottom: 56px;
+}
+
+.box2 h3 {	
+	padding-bottom: 75px;
+}
+
+button {
+	width: 59%;
+	border-radius: 5px;
+	border: none;
+	border-bottom: 5px solid #d50000;
+    background-color: #ff1744;
+    padding: 28px 30px;
+}
+
+button p {	
+	font-size: 24px;
+	font-family: "GothamProBlack";
+	text-transform: uppercase;	
+	color: #FFFFFF;	
+	text-align: center;
+	text-decoration: none;
+	margin: 0;
+}	
+
+/* section_2 */
+.section_2 {
+    width: 100%;
+}
+
+.title {
+	width: 59%;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 65px;
+	padding-bottom: 85px;
+}	
+
+.title h2 {
+	font-size: 48px;
+	font-family: "GothamProMedium";
+	color: #333333;	
+	margin: 0;
+}
+
+.text_col {
+	width: 100%;
+	
+}
+
+.text_col p {
+	font-size: 18px;
+	font-family: GothamProLight;
+	line-height: 27px;
+}
+
+.icon {
+	width: 17%;
+	display: block;
+	text-align: center;
+	float: left;
+	padding-left: 46px;
+	padding-right: 47px;
+}
+
+
+.icon_1 img {
+	
+}
+
+p .select {
+	font-family: GothamProBold;
+	font-weight: bold;
+}
+
