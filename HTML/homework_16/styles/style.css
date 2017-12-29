@@ -27,14 +27,22 @@ nav {
 nav ul {
   padding-left: 0;
   color: #FFFFFF;
-  list-style: none; }
+  list-style: none;
+  margin-top: 15px;
+  margin-bottom: 15px; }
 
 nav li {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: 800;
-  margin-right: 34px;
+  margin-left: 34px;
   display: inline-block; }
+
+.icon-search {
+  margin-left: 26px; }
+
+.icon-menu {
+  margin-left: 16px; }
 
 nav a {
   display: block;
@@ -47,16 +55,12 @@ nav a {
 .logotype a {
   display: block; }
 
-.menu {
-  display: block; }
-  .menu .icon {
-    margin-left: 15px; }
-
 .foto-man {
-  max-width: 720px; }
+  margin-left: -100px; }
 
 .box-text {
-  max-width: 590px; }
+  display: block;
+  margin-right: -60px; }
 
 a {
   text-decoration: none; }
@@ -79,7 +83,7 @@ p {
 
 h1 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 143px;
+  font-size: 128px;
   font-weight: 800;
   line-height: 115px;
   color: #eeb501;

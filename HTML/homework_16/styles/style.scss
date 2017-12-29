@@ -40,6 +40,8 @@ nav ul {
     padding-left: 0;
     color: #FFFFFF;
 	list-style: none;
+	margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 nav li {
@@ -48,9 +50,19 @@ nav li {
 	   size: 20px;	
 	   weight: 800;
     }	
-	margin-right: 34px;		
+	margin-left: 34px;		
 	display: inline-block;
-}	
+	
+}
+
+.icon-search {
+		margin-left: 26px;
+
+	}
+.icon-menu {
+		margin-left: 16px;
+
+	}	
 	
 nav	a {
 	    display: block;
@@ -69,23 +81,21 @@ nav	a {
 	}
 }
 
-.menu {
-	display: block;
-	.icon {
-		margin-left: 15px;
-	}
-}
+
+	
+
 
 .main-page {
 	
 }
 
 .foto-man {
-	max-width: 720px;
+	margin-left: -100px;
 }
 
-.box-text {	
-	max-width: 590px;
+.box-text {
+    display: block;	
+	margin-right: -60px;
 }
 
 a {
@@ -118,7 +128,7 @@ p {
 h1 {
 	font:{
 	   family: 'Open Sans', sans-serif;
-	   size: 143px;	
+	   size: 128px;	
 	   weight: 800;
     }
     line-height: 115px;
