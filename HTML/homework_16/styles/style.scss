@@ -1,5 +1,4 @@
 html, body {
-
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -16,43 +15,7 @@ html, body {
 	}	
 	padding:{
 		top: 32px;
-	}
-	 
-}
-
-a {
-	text-decoration: none;
-}
-
-p {
-	font:{
-		family: 'Open Sans', sans-serif;
-	    size: 20px;
-	    weight: 400;
-    }
-	line-height: 14px;	
-	color: #FFFFFF;
-	margin-bottom: 0;
-}
-
-h1 {
-	font:{
-	   family: 'Open Sans', sans-serif;
-	   size: 143px;	
-	   weight: 800;
-    }
-    
-    color: #eeb501;;
-}
-
-h2 {
-	font:{
-	   family: 'Open Sans', sans-serif;
-	   size: 68px;	
-	   weight: 800;
-    }
-    
-    color: #FFFFFF;
+	}	 
 }
 
 .clearfix::after {
@@ -61,36 +24,42 @@ h2 {
 	clear: both;
 }
 
-.header_menu {
-	
-
+.header {
+	padding-bottom: 72px;
 }
 
-ul {
-
+nav {
 	font:{
 	   family: 'Open Sans', sans-serif;
 	   size: 20px;	
 	   weight: 800;
     }
+}
+
+nav ul {	
     padding-left: 0;
     color: #FFFFFF;
 	list-style: none;
-    text-align: justify;
 }
 
-li {	
-	margin-right: 34px;
-
-		
+nav li {
+    font:{
+	   family: 'Open Sans', sans-serif;
+	   size: 20px;	
+	   weight: 800;
+    }	
+	margin-right: 34px;		
 	display: inline-block;
-	text-decoration: none;
-	a {
+}	
+	
+nav	a {
+	    display: block;
 		color: #FFFFFF;
 	    text-decoration: none;
-	}
+	
 	:hover {
         color: #eeb501;
+        text-decoration: none;
 	}
 }
 
@@ -103,302 +72,93 @@ li {
 .menu {
 	display: block;
 	.icon {
-
 		margin-left: 15px;
 	}
 }
-.button-wrap {
+
+.main-page {
 	
-
-    a {
-		display: block;
-	}
-	p {
-        font:{
-	   family: 'Open Sans', sans-serif;
-	   size: 21px;	
-	   weight: 600;
-    }
-	}
 }
 
-
-
-/*  
-html, body {	
-	font-family: 'Open Sans', sans-serif;
+.foto-man {
+	max-width: 720px;
 }
+
+.box-text {	
+	max-width: 590px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+        color: #eeb501;
+        text-decoration: none;
+	}
 
 p {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	line-height: 14px;
-	font-weight: 400;
+	font:{
+		family: 'Open Sans', sans-serif;
+	    size: 20px;
+	    weight: 400;
+    }
+	line-height: 14px;	
 	color: #FFFFFF;
 	margin-bottom: 0;
-}
-
-h1 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 25px;
-	line-height: 25px;
-	font-weight: 800;
-	color: #FFFFFF;
-}
-.text-orange {
-	color: #f7600e;	
-}
-.section-1 {
-	background-image: url(../img/fon-sec-1.png);
-	padding-top: 48px;
-	padding-bottom: 48px;
-	background-repeat: no-repeat;
-}
-
-.header {
-	padding-bottom: 179px;
-}
-
-.menu p {
-	float: left;
-	margin-right: 15px;
-	font-size: 16px;
-	margin-bottom: 0;
-	padding-top: 2px;	
-}
-
-.menu-icon {
-	float: right;
-}
-
-.pull-none {
-	float: none;
-}
-
-.main-text {
-	font-size: 7rem;
-	line-height: 60px;
-	padding-bottom: 25px;
-	margin: 0 auto;
+	line-height: 27px;
 }
 
 .text-lorem {
-	font-size: 2.5rem;
-	line-height: 43px;
-	padding-bottom: 58px;
-}
-.wrapper {
-	width: 1140px;
-	margin: 0 auto;
+	p {
+	   padding-top: 35px;
+    }
 }
 
-.clearfix::after {
-	display: block;
-	content: "";
-	clear: both;
+h1 {
+	font:{
+	   family: 'Open Sans', sans-serif;
+	   size: 143px;	
+	   weight: 800;
+    }
+    line-height: 115px;
+    color: #eeb501;
+    margin-top: 0;
 }
-
-h1 {	
-	font-family: 'LibreBaskervilleRegular';
-	font-weight: 100;
-	font-size: 76px;	
-}	
 
 h2 {
-	width: 100%;
-	font-family: 'LibreBaskervilleBold';	
-	font-size: 60px;
-	line-height: 50px;
-	color: #313131;
-		
+	font:{
+	   family: 'Open Sans', sans-serif;
+	   size: 68px;	
+	   weight: 800;
+    }
+    line-height: 87px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #FFFFFF;
 }
 
-h3 {
-	font-family: 'PoppinsRegular', sans-serif;	
-	font-size: 30px;
-	font-weight: 100;
-	color: #FFFFFF;
-	line-height: 30px;
-	margin-top: 0;
-    margin-bottom: 42px;
-}
 
-p {
-	font-family: 'PoppinsRegular', sans-serif;	
-	font-size: 15px;
-	color: #616161;
-	line-height: 15px;	
-}
-
-.topic-pages {
-	width: 100%;
-	text-align: center;	
-	padding-bottom: 82px;
-}
-
-.numbers {
-	width: 30%;
-    font-family: 'Poppins', sans-serif;	
-	font-size: 275px;
-	font-weight: 700;
-	line-height: 219px;
-	color: #f0f0f0;
-	margin: 0 auto;
-	padding: 0;
-}
-
-.topic-pages p {
-	font-family: 'PoppinsRegular', sans-serif;	
-	font-size: 18px;
-	color: #616161;
-	line-height: 18px;	
-	margin-top: 40px;
-	margin-bottom: 0;	
-}
-
-.topic-pages h2 {
-	margin: -75px 0 auto 0;
-}	
-
-
-.header {
-	width: 100%; 
-	box-sizing: border-box;
-	background: #FFFFFF;
-	padding: 25px;	 
-}
-
-.logo {
-	float: left;	
-}
-
-nav {	
-	float: right;	
-}
-
-ul {
-	font-family: 'PoppinsMedium', sans-serif;
-	font-size: 14px;	
-	list-style: none;			
-	margin: 0;
-	padding: 4px;		
-}
-
-li {	
-	margin-right: 5px;
-	padding: 3px;	
+.buttons {
 	display: inline-block;
+	padding-bottom: 101px;
+	padding-top: 82px;
 }
 
-li a {
-	text-decoration: none;
-	color: #3f4049;	
-}
-.wrapper {
-	width: 1140px;
-	margin: 0 auto;
+.buttons a {	
+	max-width: 210px;	
 }
 
-.clearfix::after {
-	display: block;
-	content: "";
-	clear: both;
+.buttons p {
+    font:{	   
+	    size: 21px;	
+	    weight: 600;
+	}
+	text-transform: uppercase;
+	padding: 15px 15px;
+    border: 2px solid #FFFFFF;    	
 }
 
-h1 {	
-	font-family: 'LibreBaskervilleRegular';
-	font-weight: 100;
-	font-size: 76px;	
-}	
-
-h2 {
-	width: 100%;
-	font-family: 'LibreBaskervilleBold';	
-	font-size: 60px;
-	line-height: 50px;
-	color: #313131;
-		
-}
-
-h3 {
-	font-family: 'PoppinsRegular', sans-serif;	
-	font-size: 30px;
-	font-weight: 100;
-	color: #FFFFFF;
-	line-height: 30px;
-	margin-top: 0;
-    margin-bottom: 42px;
-}
-
-p {
-	font-family: 'PoppinsRegular', sans-serif;	
-	font-size: 15px;
-	color: #616161;
-	line-height: 15px;	
-}
-
-.topic-pages {
-	width: 100%;
-	text-align: center;	
-	padding-bottom: 82px;
-}
-
-.numbers {
-	width: 30%;
-    font-family: 'Poppins', sans-serif;	
-	font-size: 275px;
-	font-weight: 700;
-	line-height: 219px;
-	color: #f0f0f0;
-	margin: 0 auto;
-	padding: 0;
-}
-
-.topic-pages p {
-	font-family: 'PoppinsRegular', sans-serif;	
-	font-size: 18px;
-	color: #616161;
-	line-height: 18px;	
-	margin-top: 40px;
-	margin-bottom: 0;	
-}
-
-.topic-pages h2 {
-	margin: -75px 0 auto 0;
-}	
 
 
-.header {
-	width: 100%; 
-	box-sizing: border-box;
-	background: #FFFFFF;
-	padding: 25px;	 
-}
 
-.logo {
-	float: left;	
-}
-
-nav {	
-	float: right;	
-}
-
-ul {
-	font-family: 'PoppinsMedium', sans-serif;
-	font-size: 14px;	
-	list-style: none;			
-	margin: 0;
-	padding: 4px;		
-}
-
-li {	
-	margin-right: 5px;
-	padding: 3px;	
-	display: inline-block;
-}
-
-li a {
-	text-decoration: none;
-	color: #3f4049;	
-}
-*/
