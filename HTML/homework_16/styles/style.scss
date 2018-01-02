@@ -1,8 +1,11 @@
 $white: #FFFFFF;
 $orange: #eeb501;
+$black: #000;
+$brown: #1e0404;
 $extrabold: 800;
-$bold: 600;
+$bold: 700;
 $regylar: 400;
+$italic: 600 italic;
 
 html, body {
 	font-family: 'Open Sans', sans-serif;
@@ -39,9 +42,14 @@ html, body {
 	line-height: 35px;
 }
 
+span {
+    font-size: 30px;	
+	font-style: italic;
+	color: $white; 
+}
+
 %for-h1 {
-	font:{
-	   family: 'Open Sans', sans-serif;
+	font:{	   
 	   size: 128px;	
 	   weight: $extrabold;
     }
@@ -52,9 +60,8 @@ html, body {
 
 %for-h2 {
 	font:{
-	   family: 'Open Sans', sans-serif;
-	   size: 68px;	
-	   weight: $extrabold;
+	    size: 68px;	
+	    weight: $extrabold;
     }
     line-height: 87px;
     margin-bottom: 0;
@@ -62,11 +69,32 @@ html, body {
     color: $white;
 }
 
-.section-1 {
-	
-	background: url(../img/fon-sec-1.png) no-repeat center center;
-	background-size: cover;
-		
+%for-h3 {
+	font:{
+	   size: 25px;	
+	   weight: $bold;
+    }
+    line-height: 25px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: $brown;
+}
+
+%for-buttons {
+	font:{	   
+	    size: 21px;	
+	    weight: $bold;
+	}
+	text-transform: uppercase;
+	padding: 10px 45px;
+    border: 2px solid $white;
+	display: inline-block;
+	margin-bottom: 0;	
+}
+
+/* section-1 start ---------------------------*/
+.section-1 {	
+	background: url(../img/fon-sec-1.png) no-repeat;
 	padding-top: 32px;	 
 }
 
@@ -107,7 +135,7 @@ nav {
 	}	
 }
 
-.main-page {
+.general-page {
     @extend %for-a;	
     .foto-man {
 	    margin-left: -100px;
@@ -124,11 +152,12 @@ nav {
 }
 
 .upper-text {
-    @extend %for-h2; 
-        line-height: 68px;    
+    @extend %for-h2;
+    padding-top: 10px; 
+    line-height: 68px;    
 }
 
-.main-text {
+.general-text {
 	@extend %for-h1;
 }
 
@@ -143,44 +172,116 @@ nav {
 }
 
 .buttons {
-	font:{	   
-	    size: 21px;	
-	    weight: $bold;
-	}
-	text-transform: uppercase;
-	padding: 10px 45px;
-    border: 2px solid $white;
-	display: inline-block;
-	margin-bottom: 0;	
+	@extend %for-buttons;
 }
 
+/* section-1 finish ------------------------------*/
+
+/* section-2 start   -----------------------------*/
+.section-2 {
+    background: url(../img/fon-sec-2.png) no-repeat center center;
+	background-size: cover;		
+}
+
+.text-black {
+	@extend %for-h2;
+	font-size: 43px;
+	color: $brown;
+	padding-left: 10px;
+}
+
+.text-white {
+	@extend %for-h2;
+	font-size: 68px;
+	line-height: 68px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	background-color: $orange;
+}
+
+.skills {
+	padding-bottom: 340px;
+    padding-top: 72px;
+}
+
+.graphic-design {
+    
+}
+
+.icons{
+	display: block;
+	width: 50%;
+	float: left;
+    @extend %for-p;
+    font-size: 15px;
+    line-height: 22px;
+    color: $brown;
+    padding: 0 41px 100px;
+}
+
+.heading-text {
+	@extend %for-h3;
+	padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* section-2 finish ------------------------------*/
+
+/* section-3 start   -----------------------------*/
+.section-3 {
+    background: url(../img/fon-sec-3.png) no-repeat center center;
+	background-size: cover;
+	padding-top: 90px;			
+}
+
+.topic-text {
+    padding-bottom: 60px;
+}
+
+.topic-p {
+	@extend %for-p;
+	line-height: 24px;
+}
+
+.topic-h2 {
+	@extend %for-h2;
+    font-size: 43px;
+    line-height: 37px;	 
+}
+
+.portfolio img {
+	vertical-align: top;
+    padding-bottom: 10px;
+}
+
+.portfolio {
+	display: inline-block;
+	padding-bottom: 42px;
+	.one {
+		float: left;
+	}	
+}
+
+.choice {
+	@extend %for-a;
+	padding-bottom: 60px;
+}
+/* section-3 finish ------------------------------*/
+
+/* section-4 start   -----------------------------*/
+.section-4 {
+    background: url(../img/fon-sec-4.png) no-repeat center center;
+	background-size: cover;
+	padding-top: 100px;			
+}
+
+
+
+
+
+
 @media (min-width: 1300px) {
-    .foto-man {
-    	width: 75%;
-	    margin-left: 0;
-    }
-    .box-text {
-        width: 75%;	
-	    margin-right: 0;
-	    .main-text {
-	    	font-size: 20px;
-        }
-	    .upper-text .lower-text {
-	    	font-size: 40px;
-	    }
-
-
-
-
-
-
-
-
-
-
-
-
-	}
+    
 }
 
 @media (min-width: 992) and (max-width: 1199px) {
