@@ -1,21 +1,15 @@
+$white: #FFFFFF;
+$orange: #eeb501;
+$extrabold: 800;
+$bold: 600;
+$regylar: 400;
+
 html, body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-
-.wrapper {
-	width: 1200px;
+.container {
 	margin: 0 auto;
-}
-.section-1 {
-	width: 100%;
-	background: {
-		image: url(../img/fon-sec-1.png);
-		repeat: no-repeat;
-	}	
-	padding:{
-		top: 32px;
-	}	 
 }
 
 .clearfix::after {
@@ -24,149 +18,188 @@ html, body {
 	clear: both;
 }
 
+%for-a {
+	a {		
+		color: $white;
+	    text-decoration: none;
+	}
+    a:hover {
+        color: $orange;
+        text-decoration: none;
+    }
+}
+
+%for-p {
+	font:{
+		size: 20px;
+	    weight: $regylar;
+    }
+	color: $white;
+	margin-bottom: 0;
+	line-height: 35px;
+}
+
+%for-h1 {
+	font:{
+	   family: 'Open Sans', sans-serif;
+	   size: 128px;	
+	   weight: $extrabold;
+    }
+    line-height: 115px;
+    color: $orange;
+    margin: 0;
+}
+
+%for-h2 {
+	font:{
+	   family: 'Open Sans', sans-serif;
+	   size: 68px;	
+	   weight: $extrabold;
+    }
+    line-height: 87px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: $white;
+}
+
+.section-1 {
+	
+	background: url(../img/fon-sec-1.png) no-repeat center center;
+	background-size: cover;
+		
+	padding-top: 32px;	 
+}
+
 .header {
 	padding-bottom: 72px;
+	@extend %for-a;
 }
 
 nav {
 	font:{
 	   family: 'Open Sans', sans-serif;
 	   size: 20px;	
-	   weight: 800;
+	   weight: $extrabold;
     }
-}
 
-nav ul {	
-    padding-left: 0;
-    color: #FFFFFF;
-	list-style: none;
-	margin-top: 15px;
-    margin-bottom: 15px;
-}
+    .menu {	
+        padding-left: 0;
+        color: $white;
+	    list-style: none;
+	    margin-top: 15px;
+        margin-bottom: 15px;
+        & li {
+            font:{
+	            family: 'Open Sans', sans-serif;
+	            size: 20px;	
+	            weight: $extrabold;
+            }	
+	        margin-left: 34px;		
+	        display: inline-block;
+        }
+        .icon-search {
+		    margin-left: 26px;
 
-nav li {
-    font:{
-	   family: 'Open Sans', sans-serif;
-	   size: 20px;	
-	   weight: 800;
-    }	
-	margin-left: 34px;		
-	display: inline-block;
-	
-}
-
-.icon-search {
-		margin-left: 26px;
-
-	}
-.icon-menu {
-		margin-left: 16px;
-
+	    }
+        .icon-menu {
+		    margin-left: 16px;
+        }
 	}	
-	
-nav	a {
-	    display: block;
-		color: #FFFFFF;
-	    text-decoration: none;
-	
-	:hover {
-        color: #eeb501;
-        text-decoration: none;
-	}
 }
-
-.logotype {
-	a {
-		display: block;
-	}
-}
-
-
-	
-
 
 .main-page {
-	
-}
-
-.foto-man {
-	margin-left: -100px;
-}
-
-.box-text {
-    display: block;	
-	margin-right: -60px;
-}
-
-a {
-	text-decoration: none;
-}
-
-a:hover {
-        color: #eeb501;
-        text-decoration: none;
-	}
-
-p {
-	font:{
-		family: 'Open Sans', sans-serif;
-	    size: 20px;
-	    weight: 400;
+    @extend %for-a;	
+    .foto-man {
+	    margin-left: -100px;
     }
-	line-height: 14px;	
-	color: #FFFFFF;
-	margin-bottom: 0;
-	line-height: 27px;
+    .box-text {
+        display: block;	
+	    margin-right: -60px;
+	    padding-bottom: 100px; 
+	    & a:hover {
+	    	color: $white;
+	    	background-color: $orange;
+	    }
+	}    
+}
+
+.upper-text {
+    @extend %for-h2; 
+        line-height: 68px;    
+}
+
+.main-text {
+	@extend %for-h1;
+}
+
+.lower-text {
+	@extend %for-h2;
 }
 
 .text-lorem {
-	p {
-	   padding-top: 35px;
-    }
+	padding-top: 35px;
+    padding-bottom: 82px;
+	@extend %for-p;
 }
-
-h1 {
-	font:{
-	   family: 'Open Sans', sans-serif;
-	   size: 128px;	
-	   weight: 800;
-    }
-    line-height: 115px;
-    color: #eeb501;
-    margin-top: 0;
-}
-
-h2 {
-	font:{
-	   family: 'Open Sans', sans-serif;
-	   size: 68px;	
-	   weight: 800;
-    }
-    line-height: 87px;
-    margin-bottom: 0;
-    margin-top: 0;
-    color: #FFFFFF;
-}
-
 
 .buttons {
-	display: inline-block;
-	padding-bottom: 101px;
-	padding-top: 82px;
-}
-
-.buttons a {	
-	max-width: 210px;	
-}
-
-.buttons p {
-    font:{	   
+	font:{	   
 	    size: 21px;	
-	    weight: 600;
+	    weight: $bold;
 	}
 	text-transform: uppercase;
-	padding: 15px 15px;
-    border: 2px solid #FFFFFF;    	
+	padding: 10px 45px;
+    border: 2px solid $white;
+	display: inline-block;
+	margin-bottom: 0;	
+}
+
+@media (min-width: 1300px) {
+    .foto-man {
+    	width: 75%;
+	    margin-left: 0;
+    }
+    .box-text {
+        width: 75%;	
+	    margin-right: 0;
+	    .main-text {
+	    	font-size: 20px;
+        }
+	    .upper-text .lower-text {
+	    	font-size: 40px;
+	    }
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+}
+
+@media (min-width: 992) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+} 
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 321px) and (max-width: 575px) {
+
+}
+
+@media (max-width: 320px) {
+
 }
 
 
