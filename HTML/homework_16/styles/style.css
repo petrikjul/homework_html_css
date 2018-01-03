@@ -16,7 +16,7 @@ html, body {
   color: #eeb501;
   text-decoration: none; }
 
-.text-lorem, .icons, .topic-p {
+.text-lorem, .icons, .topic-Lorem {
   font-size: 20px;
   font-weight: 400;
   color: #FFFFFF;
@@ -153,21 +153,33 @@ nav {
   padding-bottom: 60px; }
 
 .topic-p {
-  line-height: 24px; }
+  margin-bottom: 0; }
 
 .topic-h2 {
   font-size: 43px;
-  line-height: 37px; }
+  line-height: 43px; }
+
+.topic-Lorem {
+  line-height: 24px; }
 
 .portfolio img {
-  vertical-align: top;
-  padding-bottom: 10px; }
+  vertical-align: top; }
 
 .portfolio {
   display: inline-block;
-  padding-bottom: 42px; }
+  padding-bottom: 52px; }
   .portfolio .one {
-    float: left; }
+    float: left;
+    width: 49%;
+    margin-right: 18px; }
+  .portfolio .two {
+    width: 23%;
+    margin-right: 18px; }
+  .portfolio .three {
+    width: 23%; }
+  .portfolio .for {
+    width: 48%;
+    padding-top: 18px; }
 
 .choice {
   padding-bottom: 60px; }
