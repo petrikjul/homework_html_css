@@ -2,6 +2,7 @@ $white: #FFFFFF;
 $orange: #eeb501;
 $black: #000;
 $brown: #1e0404;
+$grey: #4f4f4f;
 $extrabold: 800;
 $bold: 700;
 $regylar: 400;
@@ -293,8 +294,57 @@ nav {
 	padding-top: 100px;			
 }
 
+.section-4 .topic-text {
+	span {
+	    color: $brown;
+    }
+    .topic-h2 {
+        color: $brown;
+        line-height: 53px;
+    }
+    .specially {
+    	@extend %for-h2;
+	    font-size: 43px;
+	    line-height: 43px;
+    	color: $orange;
+    }
+}
+
+.designers {
+	width: 100%;
+	display: inline-block;
+}
 
 
+.designer {
+	float: left;
+	padding-bottom: 80px;
+	.designer-h3 {
+		@extend %for-h3;
+		padding-top: 38px;
+	}
+	.designer-p {
+		@extend %for-p;
+		font-size: 22px;
+		color: $grey;
+	}
+}
+
+.alow {
+	width: 24%;
+	padding-top: 87px;
+	margin-right: 15px;
+}
+
+.alow-less {
+	width: 24%;
+	padding-top: 20px;
+}
+
+.designer-two {
+	width: 24%;
+	margin-right: 15px;
+}
 
 @media (min-width: 1300px) {
     

@@ -16,7 +16,7 @@ html, body {
   color: #eeb501;
   text-decoration: none; }
 
-.text-lorem, .icons, .topic-Lorem {
+.text-lorem, .icons, .topic-Lorem, .designer .designer-p {
   font-size: 20px;
   font-weight: 400;
   color: #FFFFFF;
@@ -35,7 +35,7 @@ span {
   color: #eeb501;
   margin: 0; }
 
-.upper-text, .lower-text, .text-black, .text-white, .topic-h2 {
+.upper-text, .lower-text, .text-black, .text-white, .topic-h2, .section-4 .topic-text .specially {
   font-size: 68px;
   font-weight: 800;
   line-height: 87px;
@@ -43,7 +43,7 @@ span {
   margin-top: 0;
   color: #FFFFFF; }
 
-.heading-text {
+.heading-text, .designer .designer-h3 {
   font-size: 25px;
   font-weight: 700;
   line-height: 25px;
@@ -190,5 +190,41 @@ nav {
   background: url(../img/fon-sec-4.png) no-repeat center center;
   background-size: cover;
   padding-top: 100px; }
+
+.section-4 .topic-text span {
+  color: #1e0404; }
+.section-4 .topic-text .topic-h2 {
+  color: #1e0404;
+  line-height: 53px; }
+.section-4 .topic-text .specially {
+  font-size: 43px;
+  line-height: 43px;
+  color: #eeb501; }
+
+.designers {
+  width: 100%;
+  display: inline-block; }
+
+.designer {
+  float: left;
+  padding-bottom: 80px; }
+  .designer .designer-h3 {
+    padding-top: 38px; }
+  .designer .designer-p {
+    font-size: 22px;
+    color: #4f4f4f; }
+
+.alow {
+  width: 24%;
+  padding-top: 87px;
+  margin-right: 15px; }
+
+.alow-less {
+  width: 24%;
+  padding-top: 20px; }
+
+.designer-two {
+  width: 24%;
+  margin-right: 15px; }
 
 /*# sourceMappingURL=style.css.map */
