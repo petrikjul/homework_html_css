@@ -96,7 +96,8 @@ span {
 /* section-1 start ---------------------------*/
 .section-1 {	
 	background: url(../img/fon-sec-1.png) no-repeat;
-	padding-top: 32px;	 
+	padding-top: 32px;
+	background-size: cover;
 }
 
 .header {
@@ -140,6 +141,7 @@ nav {
     @extend %for-a;	
     .foto-man {
 	    margin-left: -100px;
+	        margin-bottom: -115px;
     }
     .box-text {
         display: block;	
@@ -202,11 +204,11 @@ nav {
 
 .skills {
 	padding-bottom: 340px;
-    padding-top: 72px;
+    padding-top: 182px;
 }
 
 .graphic-design {
-    
+    padding-top: 67px;
 }
 
 .icons{
