@@ -112,6 +112,17 @@ span {
     @content;
   }
 }  
+@mixin phone {
+  @media (min-width: 320px) and (max-width: 767px) {
+    @content;
+  }
+} 
+@mixin iphone {
+  @media (max-width: 319px) {
+    @content;
+  }
+}
+
 
 /*
 @media (min-width: 1200px) {

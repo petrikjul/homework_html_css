@@ -25,11 +25,12 @@
 }
 
 .graphic-design {
-    padding-top: 71px;
+	display: inline-block;
+	padding-top: 71px;
 }
 
-.icons{
-	display: block;
+.icons {
+	
 	width: 50%;
 	float: left;
     @extend %for-p;
@@ -44,3 +45,40 @@
 	padding-top: 15px;
     padding-bottom: 15px;
 }
+
+@include desktop {
+    
+}
+
+@include laptop {
+	
+}
+
+@include tablet {
+    .skills {
+    	width: 54%;
+    	text-align: center;
+        margin: 0 auto;
+        padding-bottom: 0;
+        padding-top: 40px;
+    }
+    .sk {
+        text-align: left;
+    }
+    .graphic-design {
+    	width: 100%;
+    	margin: 0 auto;
+    }
+    .icons {    	
+        padding: 0px 50px 70px;
+    } 
+       
+}
+
+ @include phone {
+
+ }
+
+ @include iphone {
+ 	
+ }

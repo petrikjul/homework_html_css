@@ -43,7 +43,7 @@
 	.three {
 		width: 23%;
 	}
-    .for {
+    .four {
     	width: 48%;
         padding-top: 18px;
     }
@@ -54,3 +54,60 @@
 	@extend %for-a;
 	padding-bottom: 60px;
 }
+
+@include desktop {
+    
+}
+
+@include laptop {
+	
+}
+
+@include tablet {
+	.section-3 {
+		padding-top: 0;
+	}
+    .topic-text {
+    	width: 100%;
+    	text-align: center;
+        margin: 0 auto;
+        
+        padding-top: 40px;
+    }
+    .topic-Lorem {
+	    padding-left: 75px;
+        padding-right: 75px;
+    }
+    .portfolio {
+    	width: 100%;
+	    display: block;
+	    margin: 0 auto;
+	    padding-bottom: 52px;
+	
+	.one {
+		width: 80%;
+		float: none;
+        margin-right: 0;
+        padding-bottom: 18px;
+	}
+	.two {
+        width: 39%;    
+        margin-right: 10px;
+	}
+	.three {
+		width: 39%;
+	}
+	.four {
+    	width: 80%;
+        padding-top: 18px;
+    }
+    }
+}
+
+ @include phone {
+
+ }
+
+ @include iphone {
+ 	
+ }

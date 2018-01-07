@@ -182,11 +182,25 @@ nav {
     .box-text .lower-text {
       font-size: 50px; } }
 @media (min-width: 992) and (max-width: 1199px) {
+  .big {
+    width: 100%;
+    margin-left: 0; }
+
   .foto-man {
-    margin-top: 400px; }
+    width: 100%;
+    margin-left: 0; }
+
+  .box-text {
+    width: 100% !important;
+    float: none !important;
+    padding-top: 100px; }
 
   .menu-li {
-    margin-left: 24px; } }
+    width: 100%;
+    margin-left: 20px; }
+
+  .text-lorem {
+    padding: 15px 15px; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .big {
     width: 100%;
@@ -199,7 +213,13 @@ nav {
   .box-text {
     width: 100% !important;
     float: none !important;
-    padding-top: 100px; } }
+    padding-top: 100px; }
+
+  .text-lorem {
+    padding: 15px 15px; } }
+@media (min-width: 320px) and (max-width: 767px) {
+  .text-lorem {
+    padding: 15px 15px; } }
 .section-2 {
   background: url(../img/fon-sec-2.png) no-repeat center center;
   background-size: cover; }
@@ -221,10 +241,10 @@ nav {
   padding-top: 182px; }
 
 .graphic-design {
+  display: inline-block;
   padding-top: 71px; }
 
 .icons {
-  display: block;
   width: 50%;
   float: left;
   font-size: 15px;
@@ -236,6 +256,23 @@ nav {
   padding-top: 15px;
   padding-bottom: 15px; }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .skills {
+    width: 54%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 0;
+    padding-top: 40px; }
+
+  .sk {
+    text-align: left; }
+
+  .graphic-design {
+    width: 100%;
+    margin: 0 auto; }
+
+  .icons {
+    padding: 0px 50px 70px; } }
 .section-3 {
   background: url(../img/fon-sec-3.png) no-repeat center center;
   background-size: cover;
@@ -269,13 +306,45 @@ nav {
     margin-right: 18px; }
   .portfolio .three {
     width: 23%; }
-  .portfolio .for {
+  .portfolio .four {
     width: 48%;
     padding-top: 18px; }
 
 .choice {
   padding-bottom: 60px; }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-3 {
+    padding-top: 0; }
+
+  .topic-text {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 40px; }
+
+  .topic-Lorem {
+    padding-left: 75px;
+    padding-right: 75px; }
+
+  .portfolio {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 52px; }
+    .portfolio .one {
+      width: 80%;
+      float: none;
+      margin-right: 0;
+      padding-bottom: 18px; }
+    .portfolio .two {
+      width: 39%;
+      margin-right: 10px; }
+    .portfolio .three {
+      width: 39%; }
+    .portfolio .four {
+      width: 80%;
+      padding-top: 18px; } }
 .section-4 {
   background: url(../img/fon-sec-4.png) no-repeat center center;
   background-size: cover;
@@ -317,6 +386,32 @@ nav {
   width: 24%;
   margin-right: 15px; }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-4 {
+    padding-top: 0; }
+
+  .designers {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto; }
+
+  .alow {
+    width: 50%;
+    padding-top: 87px;
+    margin-right: 0;
+    padding-bottom: 0; }
+
+  .alow-less {
+    width: 50%;
+    padding-top: 20px; }
+
+  .designer-two {
+    width: 50%;
+    margin-right: 0;
+    padding-bottom: 90px; }
+
+  .designer-three {
+    padding-bottom: 30px; } }
 /* -------- variables -------- */
 /* -------- section-1 -------- */
 /* -------- section-2 -------- */

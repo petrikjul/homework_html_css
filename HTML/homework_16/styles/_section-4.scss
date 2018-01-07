@@ -55,3 +55,50 @@
 	width: 24%;
 	margin-right: 15px;
 }
+
+@include desktop {
+    
+}
+
+@include laptop {
+	
+}
+
+@include tablet {
+	.section-4 {
+		padding-top: 0;
+	}
+    .designers {
+	    width: 100%;
+	    display: inline-block;
+	    margin: 0 auto;
+    }
+    .alow {
+	    width: 50%;
+	    padding-top: 87px;
+	    margin-right: 0;
+	    padding-bottom: 0;
+    }
+    .alow-less {
+	    width: 50%;
+	    padding-top: 20px;
+    }
+
+    .designer-two {
+	    width: 50%;
+	    margin-right: 0;
+	    padding-bottom: 90px;
+    }
+    .designer-three {
+    	
+    	padding-bottom: 30px;
+    }
+}
+
+ @include phone {
+
+ }
+
+ @include iphone {
+ 	
+ }
