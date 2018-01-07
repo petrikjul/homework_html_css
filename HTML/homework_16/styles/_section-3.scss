@@ -1,0 +1,56 @@
+.section-3 {
+    background: url(../img/fon-sec-3.png) no-repeat center center;
+	background-size: cover;
+	padding-top: 90px;			
+}
+
+.topic-text {
+    padding-bottom: 60px;
+}
+
+.topic-p {
+	margin-bottom: 0;
+}
+
+.topic-h2 {
+	@extend %for-h2;
+	font-size: 43px;
+	line-height: 43px;       	 
+}
+
+.topic-Lorem {
+    @extend %for-p;
+    line-height: 24px;
+}
+
+.portfolio img {
+	vertical-align: top;
+   
+}
+
+.portfolio {
+	display: inline-block;
+	padding-bottom: 52px;
+	.one {
+		float: left;
+		width: 49%;
+        margin-right: 18px;
+	}
+	.two {
+        width: 23%;    
+        margin-right: 18px;
+	}
+	.three {
+		width: 23%;
+	}
+    .for {
+    	width: 48%;
+        padding-top: 18px;
+    }
+
+}
+
+.choice {
+	@extend %for-a;
+	padding-bottom: 60px;
+}

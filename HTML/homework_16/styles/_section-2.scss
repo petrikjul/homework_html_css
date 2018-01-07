@@ -1,0 +1,46 @@
+.section-2 {
+    background: url(../img/fon-sec-2.png) no-repeat center center;
+	background-size: cover;		
+}
+
+.text-black {
+	@extend %for-h2;
+	font-size: 43px;
+	color: $brown;
+	padding-left: 10px;
+}
+
+.text-white {
+	@extend %for-h2;
+	font-size: 68px;
+	line-height: 68px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	background-color: $orange;
+}
+
+.skills {
+	padding-bottom: 340px;
+    padding-top: 182px;
+}
+
+.graphic-design {
+    padding-top: 71px;
+}
+
+.icons{
+	display: block;
+	width: 50%;
+	float: left;
+    @extend %for-p;
+    font-size: 15px;
+    line-height: 22px;
+    color: $brown;
+    padding: 0 41px 100px;
+}
+
+.heading-text {
+	@extend %for-h3;
+	padding-top: 15px;
+    padding-bottom: 15px;
+}

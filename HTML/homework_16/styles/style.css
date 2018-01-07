@@ -60,7 +60,47 @@ span {
   display: inline-block;
   margin-bottom: 0; }
 
-/* section-1 start ---------------------------*/
+/*
+@media (min-width: 1200px) {
+    .foto-man{
+    	width: 100%;
+    	margin-left: 0;
+    	   	
+    }
+    .box-text {
+    	width: 100%;
+    	margin-right: 0;
+    }
+
+}
+
+@media (min-width: 992) and (max-width: 1199px) {
+	.foto-man{
+    	width: 100%;
+    	margin-left: 0;
+    	
+    }
+    .box-text {
+    	width: 100%;
+    	margin-right: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+} 
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 321px) and (max-width: 575px) {
+
+}
+
+@media (max-width: 320px) {
+
+}
+ */
 .section-1 {
   background: url(../img/fon-sec-1.png) no-repeat;
   padding-top: 32px;
@@ -79,23 +119,36 @@ nav {
     list-style: none;
     margin-top: 15px;
     margin-bottom: 15px; }
-    nav .menu li {
+    nav .menu .menu-li {
       font-family: 'Open Sans', sans-serif;
       font-size: 20px;
       font-weight: 800;
+      margin-top: 17px;
       margin-left: 34px;
       display: inline-block; }
+    nav .menu .logotype {
+      margin-top: 0; }
     nav .menu .icon-search {
       margin-left: 26px; }
     nav .menu .icon-menu {
       margin-left: 16px; }
 
+.vcenter {
+  display: inline-block;
+  float: none;
+  vertical-align: middle; }
+
+.big {
+  width: 116%;
+  margin-left: -95px;
+  margin-right: -100px; }
+
 .general-page .foto-man {
-  margin-left: -100px;
+  width: 50%;
   margin-bottom: -115px; }
 .general-page .box-text {
+  width: 44%;
   display: block;
-  margin-right: -60px;
   padding-bottom: 100px; }
   .general-page .box-text a:hover {
     color: #FFFFFF;
@@ -109,8 +162,44 @@ nav {
   padding-top: 35px;
   padding-bottom: 82px; }
 
-/* section-1 finish ------------------------------*/
-/* section-2 start   -----------------------------*/
+.buttons {
+  margin-right: 10px; }
+
+@media (min-width: 1200px) and (max-width: 1360px) {
+  .big {
+    width: 30%;
+    margin-left: 0; }
+
+  .foto-man {
+    width: 30%; }
+
+  .box-text {
+    width: 30%; }
+    .box-text .upper-text {
+      font-size: 50px; }
+    .box-text .general-text {
+      font-size: 95px; }
+    .box-text .lower-text {
+      font-size: 50px; } }
+@media (min-width: 992) and (max-width: 1199px) {
+  .foto-man {
+    margin-top: 400px; }
+
+  .menu-li {
+    margin-left: 24px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .big {
+    width: 100%;
+    margin-left: 0; }
+
+  .foto-man {
+    width: 100%;
+    margin-bottom: 0; }
+
+  .box-text {
+    width: 100% !important;
+    float: none !important;
+    padding-top: 100px; } }
 .section-2 {
   background: url(../img/fon-sec-2.png) no-repeat center center;
   background-size: cover; }
@@ -132,7 +221,7 @@ nav {
   padding-top: 182px; }
 
 .graphic-design {
-  padding-top: 67px; }
+  padding-top: 71px; }
 
 .icons {
   display: block;
@@ -147,8 +236,6 @@ nav {
   padding-top: 15px;
   padding-bottom: 15px; }
 
-/* section-2 finish ------------------------------*/
-/* section-3 start   -----------------------------*/
 .section-3 {
   background: url(../img/fon-sec-3.png) no-repeat center center;
   background-size: cover;
@@ -189,8 +276,6 @@ nav {
 .choice {
   padding-bottom: 60px; }
 
-/* section-3 finish ------------------------------*/
-/* section-4 start   -----------------------------*/
 .section-4 {
   background: url(../img/fon-sec-4.png) no-repeat center center;
   background-size: cover;
@@ -231,5 +316,11 @@ nav {
 .designer-two {
   width: 24%;
   margin-right: 15px; }
+
+/* -------- variables -------- */
+/* -------- section-1 -------- */
+/* -------- section-2 -------- */
+/* -------- section-3 -------- */
+/* -------- section-4 -------- */
 
 /*# sourceMappingURL=style.css.map */
