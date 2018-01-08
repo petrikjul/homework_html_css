@@ -89,14 +89,54 @@
 	    margin-right: 0;
 	    padding-bottom: 90px;
     }
-    .designer-three {
-    	
+    .designer-three {    	
     	padding-bottom: 30px;
     }
 }
 
  @include phone {
-
+    .section-4 {
+		padding-top: 0;
+	}
+	.topic-text {
+		padding-bottom: 15px;
+        padding-top: 40px;
+	}
+    .designers {
+	    width: 100%;
+	    display: inline-block;
+	    margin: 0 auto;
+    }
+    .designer .designer-h3 {		
+		padding-top: 10px;
+	}
+    .alow {
+	    width: 100%;
+        display: block;
+        margin: 0 auto;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    .alow-less {
+	    width: 100%;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .designer-two {
+	    width: 100%;
+        display: block;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+    .designer-three {
+    	width: 100%;
+        display: block;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
  }
 
  @include iphone {

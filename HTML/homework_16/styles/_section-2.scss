@@ -76,7 +76,33 @@
 }
 
  @include phone {
-
+     .skills {
+    	width: 54%;
+    	text-align: center;
+        margin: 0 auto;
+        padding-bottom: 0;
+        padding-top: 20px;
+    }
+    .text-black {	
+	    font-size: 28px;
+	    line-height: 45px;
+	}
+    .text-white {
+	    font-size: 26px;
+	    line-height: 40px;
+	}
+    .sk {
+        text-align: left;
+    }
+    .graphic-design {
+    	width: 100%;
+    	margin: 0 auto;
+        padding-top: 30px;
+    }
+    .icons {
+        width: 100%;    	
+        padding: 0px 50px 40px;
+    } 
  }
 
  @include iphone {

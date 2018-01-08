@@ -34,6 +34,7 @@ nav {
         }
         .logotype {
         	margin-top: 0;
+        	margin-left: 0;
         }
         .icon-search {
 		    margin-left: 26px;
@@ -58,7 +59,8 @@ nav {
 }
 
 .general-page {	
-    @extend %for-a;	
+    @extend %for-a;
+    padding-bottom: 100px;	
     .foto-man {    	
 	    width: 50%;
 	    margin-bottom: -115px;
@@ -66,8 +68,7 @@ nav {
     .box-text {
         width: 44%;	
         display: block;
-        padding-bottom: 100px; 
-	    & a:hover {
+        & a:hover {
 	    	color: $white;
 	    	background-color: $orange;
 	    }
@@ -169,11 +170,53 @@ nav {
 }
 
  @include phone {
+ 	.header {
+        padding-bottom: 30px;
+    }
+ 	.menu-li {
+ 		margin-left: 0 !important;
+ 	}
+    .general-page {
+    	padding-bottom: 40px;
+    }
+    .big {
+		width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    } 
+	.foto-man {
+    	width: 100% !important;
+    	margin-bottom: 0 !important;
+    }
+    .man {
+	    width: 100% !important;
+    }
+    .box-text {
+    	width: 100% !important;
+        padding-top: 0;
+    }
+    .upper-text {
+        font-size: 35px;
+        line-height: 40px;	
+	}
+	.general-text {
+	    font-size: 60px;
+	    line-height: 70px;
+	}    
+    .lower-text {
+        font-size: 35px;
+        line-height: 47px;
+    }
     .text-lorem {
+    	font-size: 17px;
     	padding: 15px 15px;
+    	padding-bottom: 50px;
+    	line-height: 30px;
     }
  }
 
  @include iphone {
  	
  }
+
+ /*  */
