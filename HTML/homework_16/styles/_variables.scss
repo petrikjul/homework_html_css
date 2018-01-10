@@ -15,6 +15,8 @@ html, body {
 }
 
 .container {
+    padding-left: 0;
+    padding-right: 0;
 	margin: 0 auto;
 }
 
@@ -53,7 +55,7 @@ span {
 
 %for-h1 {
 	font:{	   
-	   size: 128px;	
+	   size: 124px;	
 	   weight: $extrabold;
     }
     line-height: 115px;
@@ -98,7 +100,7 @@ span {
 
 
 @mixin desktop {
-  @media (min-width: 1200px) and (max-width: 1360px) {
+  @media (min-width: 1200px) {
     @content;
   }
 }
@@ -123,46 +125,4 @@ span {
   }
 }
 
-
-/*
-@media (min-width: 1200px) {
-    .foto-man{
-    	width: 100%;
-    	margin-left: 0;
-    	   	
-    }
-    .box-text {
-    	width: 100%;
-    	margin-right: 0;
-    }
-
-}
-
-@media (min-width: 992) and (max-width: 1199px) {
-	.foto-man{
-    	width: 100%;
-    	margin-left: 0;
-    	
-    }
-    .box-text {
-    	width: 100%;
-    	margin-right: 0;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-
-} 
-@media (min-width: 576px) and (max-width: 767px) {
-
-}
-
-@media (min-width: 321px) and (max-width: 575px) {
-
-}
-
-@media (max-width: 320px) {
-
-}
- */
 
