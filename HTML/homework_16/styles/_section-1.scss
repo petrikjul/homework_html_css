@@ -122,194 +122,192 @@ nav {
 @include laptop {
     nav {
         width: 100%;
-    }
-    .menu-li {
-        width: 100%;
-        margin-left: 28px;
+        .menu-li {
+            width: 100%;
+            margin-left: 28px;
+        }
     }
 	.big {
-		width: 100%;        
+		width: 100%;    
+        .foto-man {
+    	    width: 50%;
+            margin-left: 0;
+            .man {
+                width: 100%;
+            }
+        }
+	    .box-text {
+    	    width: 50%;
+            float: none;
+            margin-right: 0;
+            padding-top: 100px;
+            .upper-text {
+                font-size: 45px;
+                line-height: 45px;  
+            }
+            .general-text {
+                font-size: 90px;
+                line-height: 100px;
+            }    
+            .lower-text {
+                font-size: 45px;
+                line-height: 50px;
+            }
+	        .text-lorem {
+    	        padding: 15px 15px;
+            }
+        }
     }
-    .foto-man {
-    	width: 50%;
-        margin-left: 0;
-    }
-    .man {
-        width: 100%;
-    }
-	.box-text {
-    	width: 50%;
-        float: none;
-        margin-right: 0;
-        padding-top: 100px;
-    }
-    .upper-text {
-        font-size: 45px;
-        line-height: 45px;  
-    }
-    .general-text {
-        font-size: 90px;
-        line-height: 100px;
-    }    
-    .lower-text {
-        font-size: 45px;
-        line-height: 50px;
-    }
-	.text-lorem {
-    	padding: 15px 15px;
-    }
-}
+}    
 
 @include tablet {
     nav {
         width: 100%;
     }
     .big {
-		width: 100%;        
-    } 
-	.foto-man {
-    	width: 100%;
-        margin-left: 0;
-    	margin-bottom: 0;
-    }
-    .man {
-        width: 100%;
-    }
-    .box-text {
-    	width: 100%;
-        margin-right: 0;
-        float: none;
-        padding-top: 100px;
-    }
-    .text-lorem {
-    	padding: 15px 15px;
+		width: 100%;
+        .foto-man {
+    	    width: 100%;
+            margin-left: 0;
+    	    margin-bottom: 0;
+            .man {
+                width: 100%;
+            }
+        }
+        .box-text {
+            width: 100%;
+            margin-right: 0;
+            float: none;
+            padding-top: 100px;
+            .text-lorem {
+    	        padding: 15px 15px;
+            }
+        }
     }
 }
 
  @include phone {
  	.header {
         padding-bottom: 30px;
-    }
-    nav {
-        width: 100%;
-    }
- 	.menu-li {
- 		margin-left: 0;
- 	}
-    .icon-search  {
-        margin-left: 0;
+        nav {
+            width: 100%;
+            .menu-li {
+ 		        margin-left: 0;
+                .icon-search  {
+                    margin-left: 0;
+                }
+            }
+        }
     }
     .general-page {
     	padding-bottom: 40px;
+        .big {
+		    width: 100%;
+            .foto-man {
+    	        width: 100%;
+                margin-left: 0;
+    	        margin-bottom: 0;
+                margin: 0 auto;
+                .man {
+	                width: 100%;
+                }
+            }
+            .box-text {
+    	        width: 100%;
+                margin-right: 0;
+                padding-top: 0;
+                float: none;
+                .upper-text {
+                    font-size: 35px;
+                    line-height: 40px;	
+	            }
+                .general-text {
+	                font-size: 60px;
+	                line-height: 70px;
+	            }
+                .lower-text {
+                    font-size: 35px;
+                    line-height: 47px;
+                }
+                .text-lorem {
+    	            font-size: 17px;
+    	            padding: 15px 15px;
+    	            padding-bottom: 50px;
+    	            line-height: 30px;
+                }
+            }
+        }
     }
-    .big {
-		width: 100%;
-    } 
-	.foto-man {
-    	width: 100%;
-        margin-left: 0;
-    	margin-bottom: 0;
-        margin: 0 auto;
-    }
-    .man {
-	    width: 100%;
-    }
-    .box-text {
-    	width: 100%;
-        margin-right: 0;
-        padding-top: 0;
-        float: none;
-    }
-    .upper-text {
-        font-size: 35px;
-        line-height: 40px;	
-	}
-	.general-text {
-	    font-size: 60px;
-	    line-height: 70px;
-	}    
-    .lower-text {
-        font-size: 35px;
-        line-height: 47px;
-    }
-    .text-lorem {
-    	font-size: 17px;
-    	padding: 15px 15px;
-    	padding-bottom: 50px;
-    	line-height: 30px;
-    }
- }
-
+}
  @include iphone {
     .section-1 {
         padding-top: 0;
+        .header {
+            padding-bottom: 30px;
+            nav {
+                width: 100%;
+                .menu-li {
+                    margin-top: 0;
+                    .icon-search  {
+                        margin-left: 0;
+                        margin-top: 3px;
+                    }
+                    .icon-menu {
+                        margin-left: 0;
+                        margin-top: 3px;
+                    }
+                }
+                .logotype {
+                    width: 35%;
+                    margin-left: 0;
+                    .logo {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .general-page {
+            padding-bottom: 40px;
+            .big {
+                width: 100%;
+                .foto-man {
+                    width: 100%;
+                    margin-left: 0;
+                    margin-bottom: 0;
+                    .man {
+                        width: 100%;
+                    }
+                }
+                .box-text {
+                    width: 100%;
+                    margin-right: 0;
+                    padding-top: 0;
+                    .upper-text {
+                        font-size: 30px;
+                        line-height: 30px;  
+                    }
+                    .general-text {
+                        font-size: 42px;
+                        line-height: 50px;
+                    }    
+                    .lower-text {
+                        font-size: 30px;
+                        line-height: 40px;
+                    }
+                    .text-lorem {
+                        font-size: 15px;
+                        padding: 5px 5px;
+                        padding-bottom: 15px;
+                        line-height: 23px;
+                    }
+                    .buttons {
+                        font-size: 15px;
+                        padding: 10px 10px;
+                    } 
+                }
+            }
+        }
     }
- 	.header {
-        padding-bottom: 30px;
-    }
-    nav {
-        width: 100%;
-    }
-    .menu-li {
-        margin-left: 0;
-        margin-top: 0;
-    }
-    .logotype {
-        width: 43%;
-        text-align: left;
-    }
-    .logo {
-        width: 100%;
-    }
-    .icon-search  {
-        margin-left: 0;
-        margin-top: 3px;
-    }
-    .icon-menu {
-        margin-left: 0;
-        margin-top: 3px;
-    }
-    .general-page {
-        padding-bottom: 40px;
-    }
-    .big {
-        width: 100%;       
-    } 
-    .foto-man {
-        width: 100%;
-        margin-left: 0;
-        margin-bottom: 0;
-    }
-    .man {
-        width: 100%;
-    }
-    .box-text {
-        width: 100%;
-        margin-right: 0;
-        padding-top: 0;
-    }
-    .upper-text {
-        font-size: 30px;
-        line-height: 30px;  
-    }
-    .general-text {
-        font-size: 42px;
-        line-height: 50px;
-    }    
-    .lower-text {
-        font-size: 30px;
-        line-height: 40px;
-    }
-    .text-lorem {
-        font-size: 15px;
-        padding: 5px 5px;
-        padding-bottom: 15px;
-        line-height: 23px;
-    }
-    .buttons {
-        font-size: 15px;
-        padding: 10px 10px;
-    }
- }
+}
 
- /*  */
+ 
