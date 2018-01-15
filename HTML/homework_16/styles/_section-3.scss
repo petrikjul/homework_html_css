@@ -59,182 +59,183 @@
     
 }
 
+@include laptop-plus {
+    
+}
+
 @include laptop {
 	.section-3 {
-		padding-top: 0;
-	}
-    .topic-text {
-    	width: 100%;
-    	text-align: center;
-        margin: 0 auto;
-        
-        padding-top: 40px;
-    }
-    .topic-Lorem {
-	    padding-left: 75px;
-        padding-right: 75px;
-    }
-    .portfolio {
-    	width: 100%;
-	    display: block;
-	    margin: 0 auto;
-	    padding-bottom: 52px;
-	
-	.one {
-		width: 80%;
-		float: none;
-        margin-right: 0;
-        padding-bottom: 18px;
-	}
-	.two {
-        width: 39%;    
-        margin-right: 10px;
-	}
-	.three {
-		width: 39%;
-	}
-	.four {
-    	width: 80%;
-        padding-top: 18px;
-    }
+		padding-top: 0;	
+        .topic-text {
+    	    width: 100%;
+    	    text-align: center;
+            margin: 0 auto;
+            padding-top: 40px;
+            .topic-Lorem {
+	            padding-left: 75px;
+                padding-right: 75px;
+            }
+        }
+        .portfolio {
+    	    width: 100%;
+	        display: block;
+	        margin: 0 auto;
+	        padding-bottom: 52px;
+            .one {
+		        width: 80%;
+		        float: none;
+                margin-right: 0;
+                padding-bottom: 18px;
+	        }
+	        .two {
+                width: 39%;    
+                margin-right: 10px;
+	        }
+	        .three {
+		        width: 39%;
+	        }
+	        .four {
+    	        width: 80%;
+                padding-top: 18px;
+            }
+        }
     }
 }
 
 @include tablet {
 	.section-3 {
 		padding-top: 0;
-	}
-    .topic-text {
-    	width: 100%;
-    	text-align: center;
-        margin: 0 auto;
-        
-        padding-top: 40px;
-    }
-    .topic-Lorem {
-	    padding-left: 75px;
-        padding-right: 75px;
-    }
-    .portfolio {
-    	width: 100%;
-	    display: block;
-	    margin: 0 auto;
-	    padding-bottom: 52px;
-	
-	.one {
-		width: 80%;
-		float: none;
-        margin-right: 0;
-        padding-bottom: 18px;
-	}
-	.two {
-        width: 39%;    
-        margin-right: 10px;
-	}
-	.three {
-		width: 39%;
-	}
-	.four {
-    	width: 80%;
-        padding-top: 18px;
-    }
+        .topic-text {
+    	    width: 100%;
+    	    text-align: center;
+            margin: 0 auto;
+            padding-top: 40px;
+            .topic-Lorem {
+	            padding-left: 75px;
+                padding-right: 75px;
+            }
+        }
+        .portfolio {
+    	    width: 100%;
+	        display: block;
+	        margin: 0 auto;
+	        padding-bottom: 52px;
+            .one {
+		        width: 80%;
+		        float: none;
+                margin-right: 0;
+                padding-bottom: 18px;
+	        }
+	        .two {
+                width: 39%;    
+                margin-right: 10px;
+	        }
+	        .three {
+		        width: 39%;
+	        }
+	        .four {
+    	        width: 80%;
+                padding-top: 18px;
+            }
+        }
     }
 }
 
 @include phone {
     .section-3 {
 		padding-top: 0;
-	}
-    .topic-text {
-    	width: 100%;
-    	text-align: center;
-        margin: 0 auto;
-        padding-bottom: 40px;
-        padding-top: 0;
-    }
-    .topic-h2 {
-    	font-size: 35px;
-    }
-    .topic-Lorem {
-	    padding-left: 75px;
-        padding-right: 75px;
-    }
-    .portfolio {
-    	width: 100%;
-	    display: block;
-	    margin: 0 auto;
-	    padding-bottom: 52px;
-	
-	.one {
-		width: 80%;
-		float: none;
-        margin-right: 0;
-        padding-bottom: 15px;
-	}
-	.two {
-        width: 80%;
-        margin-right: 0;    
-        padding-bottom: 15px;
-	}
-	.three {
-		width: 80%;
-		padding-bottom: 15px;
-	}
-	.four {
-    	width: 80%;
-        padding-top: 0;
-    }
+        .topic-text {
+    	    width: 100%;
+    	    text-align: center;
+            margin: 0 auto;
+            padding-bottom: 40px;
+            padding-top: 0;
+            .topic-h2 {
+    	        font-size: 35px;
+            }
+            .topic-Lorem {
+	            padding-left: 75px;
+                padding-right: 75px;
+            }
+        }
+        .portfolio {
+    	    width: 100%;
+	        display: block;
+	        margin: 0 auto;
+	        padding-bottom: 52px;
+            .one {
+		        width: 80%;
+		        float: none;
+                margin-right: 0;
+                padding-bottom: 15px;
+	        }
+	       .two {
+                width: 80%;
+                margin-right: 0;    
+                padding-bottom: 15px;
+	        }
+	        .three {
+		        width: 80%;
+		        padding-bottom: 15px;
+	        }
+	        .four {
+    	        width: 80%;
+                padding-top: 0;
+            }
+        }
     }
 }
 
 @include iphone {
  	.section-3 {
 		padding-top: 0;
-	}
-    .topic-text {
-    	width: 100%;
-    	text-align: center;
-        margin: 0 auto;
-        padding-bottom: 40px;
-        padding-top: 0;
-    }
-    .topic-h2 {
-    	font-size: 30px;
-    }
-    span {
-    		font-size: 20px;
-    }
-    .topic-Lorem {
-    	font-size: 15px;
-	    padding-left: 15px;
-        padding-right: 15px;
-    }
-    .portfolio {
-    	width: 100%;
-	    display: block;
-	    margin: 0 auto;
-	    padding-bottom: 30px;
-		.one {
-		    width: 80%;
-		    float: none;
-            margin-right: 0;
-            padding-bottom: 15px;
-	    }
-	    .two {
-            width: 80%;
-            margin-right: 0;    
-            padding-bottom: 15px;
-	    }
-	    .three {
-		    width: 80%;
-		    padding-bottom: 15px;
-	    }
-	    .four {
-    	    width: 80%;
+        .topic-text {
+    	    width: 100%;
+    	    text-align: center;
+            margin: 0 auto;
+            padding-bottom: 40px;
             padding-top: 0;
+            .topic-h2 {
+    	        font-size: 30px;
+            }
+            .topic-p {
+                span {
+                    font-size: 20px;
+                }
+            }
+            .topic-Lorem {
+    	        font-size: 15px;
+	            padding-left: 15px;
+                padding-right: 15px;
+            }
         }
-    }
-    .choice {
-    	padding-bottom: 30px;
+        .portfolio {
+    	    width: 100%;
+	        display: block;
+	        margin: 0 auto;
+	        padding-bottom: 30px;
+		    .one {
+		        width: 80%;
+		        float: none;
+                margin-right: 0;
+                padding-bottom: 15px;
+	        }
+	        .two {
+                width: 80%;
+                margin-right: 0;    
+                padding-bottom: 15px;
+	        }
+	        .three {
+		        width: 80%;
+		        padding-bottom: 15px;
+	        }
+	        .four {
+    	        width: 80%;
+                padding-top: 0;
+            }
+        }
+        .choice {
+    	    padding-bottom: 30px;
+        }
     }
 }

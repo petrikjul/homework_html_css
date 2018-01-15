@@ -65,159 +65,161 @@
     
 }
 
+@include laptop-plus {
+    
+}
+
 @include laptop {
 	.designers {
 	    width: 100%;
 	    display: inline-block;
-	}
-    .designer-icon {
-        width: 100%;
-    }
-    .alow {
-	    width: 23%;
-	    padding-top: 87px;
-	    margin-right: 23px;
-	    padding-bottom: 0;
-    }
-    .alow-less {
-	    width: 23%;
-	    padding-top: 20px;
-    }
-    .designer-two {
-	    width: 23%;
-	    margin-right: 23px;
-	    padding-bottom: 90px;
-    }
-    .designer-three {    	
-    	padding-bottom: 30px;
-    	width: 24%;
+        .designer-icon {
+           width: 100%;
+        }
+        .alow {
+	        width: 23%;
+	        padding-top: 87px;
+	        margin-right: 23px;
+	        padding-bottom: 0;
+        }
+        .alow-less {
+	        width: 23%;
+	        padding-top: 20px;
+        }
+        .designer-two {
+	        width: 23%;
+	        margin-right: 23px;
+	        padding-bottom: 90px;
+        }
+        .designer-three {    	
+    	    padding-bottom: 30px;
+    	    width: 24%;
+        }
     }
 }
 
 @include tablet {
 	.section-4 {
 		padding-top: 0;
-	}
-    .designers {
-	    width: 100%;
-	    display: inline-block;
-	    margin: 0 auto;
-    }
-    .designer-icon {
-        width: 100%;
-    }
-
-    .alow {
-	    width: 24%;
-	    padding-top: 87px;
-	    margin-right: 0;
-	    padding-bottom: 0;
-    }
-    .alow-less {
-	    width: 24%;
-	    padding-top: 20px;
-    }
-
-    .designer-two {
-	    width: 24%;
-	    margin-right: 0;
-	    padding-bottom: 90px;
-    }
-    .designer-three {    	
-    	padding-bottom: 30px;
-    	width: 24%;
+        .designers {
+	        width: 100%;
+	        display: inline-block;
+	        margin: 0 auto;
+            .designer-icon {
+                width: 100%;
+            }
+            .alow {
+	            width: 24%;
+	            padding-top: 87px;
+	            margin-right: 0;
+	            padding-bottom: 0;
+            }
+            .alow-less {
+	            width: 24%;
+	            padding-top: 20px;
+            }
+            .designer-two {
+	            width: 24%;
+	            margin-right: 0;
+	            padding-bottom: 90px;
+            }
+            .designer-three {    	
+    	        padding-bottom: 30px;
+    	        width: 24%;
+            }
+        }
     }
 }
 
  @include phone {
     .section-4 {
 		padding-top: 0;
-	}
-	.topic-text {
-		padding-bottom: 15px;
-        padding-top: 40px;
-	}
-    .designers {
-	    width: 100%;
-	    display: inline-block;
-	    margin: 0 auto;
-    }
-    .designer .designer-h3 {		
-		padding-top: 10px;
-	}
-    .alow {
-	    width: 100%;
-        display: block;
-        margin: 0 auto;
-        padding-top: 0;
-        padding-bottom: 20px;
-    }
-    .alow-less {
-	    width: 100%;
-        display: block;
-        margin: 0 auto;
-        padding-bottom: 20px;
-    }
-    .designer-two {
-	    width: 100%;
-        display: block;
-        margin: 0 auto;
-        padding-top: 20px;
-        padding-bottom: 0;
-    }
-    .designer-three {
-    	width: 100%;
-        display: block;
-        margin: 0 auto;
-        padding-top: 20px;
-        padding-bottom: 0px;
+        .topic-text {
+		    padding-bottom: 15px;
+            padding-top: 40px;
+	    }
+        .designers {
+	        width: 100%;
+	        display: inline-block;
+	        margin: 0 auto;
+            .designer-h3 {		
+		        padding-top: 10px;
+	        }
+            .alow {
+	            width: 100%;
+                display: block;
+                margin: 0 auto;
+                padding-top: 0;
+                padding-bottom: 20px;
+            }
+            .alow-less {
+	            width: 100%;
+                display: block;
+                margin: 0 auto;
+                padding-bottom: 20px;
+            }
+            .designer-two {
+	            width: 100%;
+                display: block;
+                margin: 0 auto;
+                padding-top: 20px;
+                padding-bottom: 0;
+            }
+            .designer-three {
+    	        width: 100%;
+                display: block;
+                margin: 0 auto;
+                padding-top: 20px;
+                padding-bottom: 0px;
+            }   
+        }
     }
  }
 
 @include iphone {
  	.section-4 {
 		padding-top: 0;
-	}
-	.topic-text {
-		padding-bottom: 15px;
-        padding-top: 25px;
-	}
-    .designers {
-	    width: 100%;
-	    display: inline-block;
-	    margin: 0 auto;
-    }
-    .designer .designer-h3 {		
-		padding-top: 10px;
-	}
-    .alow {
-	    width: 100%;
-        display: block;
-        margin: 0 auto;
-        padding-top: 0;
-        padding-bottom: 20px;
-    }
-    .alow-less {
-	    width: 100%;
-        display: block;
-        margin: 0 auto;
-        padding-bottom: 20px;
-    }
-    .designer-two {
-	    width: 100%;
-        display: block;
-        margin: 0 auto;
-        padding-top: 20px;
-        padding-bottom: 0;
-    }
-    .designer-three {
-    	width: 100%;
-        display: block;
-        margin: 0 auto;
-        padding-top: 20px;
-        padding-bottom: 0px;
-    }
-    .designer-icon {
-    	width: 100%;
+        .topic-text {
+		    padding-bottom: 15px;
+            padding-top: 25px;
+	    }
+        .designers {
+	        width: 100%;
+	        display: inline-block;
+	        margin: 0 auto;
+            .designer-h3 {		
+		        padding-top: 10px;
+	        }
+            .alow {
+	            width: 100%;
+                display: block;
+                margin: 0 auto;
+                padding-top: 0;
+                padding-bottom: 20px;
+            }
+            .alow-less {
+	            width: 100%;
+                display: block;
+                margin: 0 auto;
+                padding-bottom: 20px;
+            }
+            .designer-two {
+	            width: 100%;
+                display: block;
+                margin: 0 auto;
+                padding-top: 20px;
+                padding-bottom: 0;
+            }
+            .designer-three {
+    	        width: 100%;
+                display: block;
+                margin: 0 auto;
+                padding-top: 20px;
+                padding-bottom: 0px;
+            }
+            .designer-icon {
+    	        width: 100%;
+            }
+        }
     }
 }

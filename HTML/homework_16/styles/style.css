@@ -3,8 +3,6 @@ html, body {
 }
 
 .container {
-  padding-left: 0;
-  padding-right: 0;
   margin: 0 auto;
 }
 
@@ -45,7 +43,7 @@ span {
   margin: 0;
 }
 
-.upper-text, .lower-text, .text-black, .text-white, .topic-h2, .section-4 .topic-text .specially {
+.upper-text, .lower-text, .skills .text-black, .skills .text-white, .topic-h2, .section-4 .topic-text .specially {
   font-size: 68px;
   font-weight: 800;
   line-height: 87px;
@@ -120,9 +118,6 @@ nav .menu .icon-menu {
   vertical-align: middle;
 }
 
-.general-page .big {
-  width: 100%;
-}
 .general-page .foto-man {
   width: 50%;
   margin-left: -100px;
@@ -152,7 +147,7 @@ nav .menu .icon-menu {
   margin-right: 10px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1370px) {
   .box-text .upper-text {
     font-size: 68px;
   }
@@ -163,44 +158,67 @@ nav .menu .icon-menu {
     font-size: 68px;
   }
 }
-@media (min-width: 992) and (max-width: 1199px) {
-  nav {
-    width: 100%;
-  }
-  nav .menu-li {
-    width: 100%;
-    margin-left: 28px;
-  }
-
-  .big {
-    width: 100%;
-  }
-  .big .foto-man {
+@media (min-width: 1200px) and (max-width: 1369px) {
+  .general-page .foto-man {
     width: 50%;
     margin-left: 0;
   }
-  .big .foto-man .man {
+  .general-page .foto-man .man {
     width: 100%;
   }
-  .big .box-text {
+  .general-page .box-text {
     width: 50%;
     float: none;
     margin-right: 0;
-    padding-top: 100px;
+    padding-bottom: 100px;
   }
-  .big .box-text .upper-text {
+  .general-page .box-text .upper-text {
     font-size: 45px;
     line-height: 45px;
   }
-  .big .box-text .general-text {
+  .general-page .box-text .general-text {
     font-size: 90px;
     line-height: 100px;
   }
-  .big .box-text .lower-text {
+  .general-page .box-text .lower-text {
     font-size: 45px;
     line-height: 50px;
   }
-  .big .box-text .text-lorem {
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  nav .menu {
+    text-align: right;
+  }
+  nav .menu .menu-li {
+    margin-left: 25px;
+  }
+
+  .general-page .foto-man {
+    width: 50%;
+    margin-left: 0;
+  }
+  .general-page .foto-man .man {
+    width: 100%;
+  }
+  .general-page .box-text {
+    width: 50%;
+    float: none;
+    margin-right: 0;
+    padding-bottom: 50px;
+  }
+  .general-page .box-text .upper-text {
+    font-size: 45px;
+    line-height: 45px;
+  }
+  .general-page .box-text .general-text {
+    font-size: 90px;
+    line-height: 100px;
+  }
+  .general-page .box-text .lower-text {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .general-page .box-text .text-lorem {
     padding: 15px 15px;
   }
 }
@@ -209,25 +227,23 @@ nav .menu .icon-menu {
     width: 100%;
   }
 
-  .big {
-    width: 100%;
-  }
-  .big .foto-man {
+  .general-page .foto-man {
     width: 100%;
     margin-left: 0;
     margin-bottom: 0;
   }
-  .big .foto-man .man {
-    width: 100%;
+  .general-page .foto-man .man {
+    width: 98%;
   }
-  .big .box-text {
+  .general-page .box-text {
     width: 100%;
     margin-right: 0;
     float: none;
-    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
   }
-  .big .box-text .text-lorem {
-    padding: 15px 15px;
+  .general-page .box-text .text-lorem {
+    padding: 45px 15px;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
@@ -243,41 +259,42 @@ nav .menu .icon-menu {
   .header nav .menu-li .icon-search {
     margin-left: 0;
   }
+  .header nav .menu-li .icon-menu {
+    margin-left: 35px;
+  }
 
   .general-page {
     padding-bottom: 40px;
   }
-  .general-page .big {
-    width: 100%;
-  }
-  .general-page .big .foto-man {
+  .general-page .foto-man {
     width: 100%;
     margin-left: 0;
     margin-bottom: 0;
     margin: 0 auto;
   }
-  .general-page .big .foto-man .man {
+  .general-page .foto-man .man {
     width: 100%;
   }
-  .general-page .big .box-text {
+  .general-page .box-text {
     width: 100%;
     margin-right: 0;
     padding-top: 0;
     float: none;
+    text-align: center;
   }
-  .general-page .big .box-text .upper-text {
+  .general-page .box-text .upper-text {
     font-size: 35px;
     line-height: 40px;
   }
-  .general-page .big .box-text .general-text {
+  .general-page .box-text .general-text {
     font-size: 60px;
     line-height: 70px;
   }
-  .general-page .big .box-text .lower-text {
+  .general-page .box-text .lower-text {
     font-size: 35px;
     line-height: 47px;
   }
-  .general-page .big .box-text .text-lorem {
+  .general-page .box-text .text-lorem {
     font-size: 17px;
     padding: 15px 15px;
     padding-bottom: 50px;
@@ -306,7 +323,8 @@ nav .menu .icon-menu {
     margin-top: 3px;
   }
   .section-1 .header nav .logotype {
-    width: 35%;
+    width: 40%;
+    text-align: left;
     margin-left: 0;
   }
   .section-1 .header nav .logotype .logo {
@@ -315,41 +333,39 @@ nav .menu .icon-menu {
   .section-1 .general-page {
     padding-bottom: 40px;
   }
-  .section-1 .general-page .big {
-    width: 100%;
-  }
-  .section-1 .general-page .big .foto-man {
+  .section-1 .general-page .foto-man {
     width: 100%;
     margin-left: 0;
     margin-bottom: 0;
   }
-  .section-1 .general-page .big .foto-man .man {
+  .section-1 .general-page .foto-man .man {
     width: 100%;
   }
-  .section-1 .general-page .big .box-text {
+  .section-1 .general-page .box-text {
     width: 100%;
     margin-right: 0;
     padding-top: 0;
+    text-align: center;
   }
-  .section-1 .general-page .big .box-text .upper-text {
+  .section-1 .general-page .box-text .upper-text {
     font-size: 30px;
     line-height: 30px;
   }
-  .section-1 .general-page .big .box-text .general-text {
+  .section-1 .general-page .box-text .general-text {
     font-size: 42px;
     line-height: 50px;
   }
-  .section-1 .general-page .big .box-text .lower-text {
+  .section-1 .general-page .box-text .lower-text {
     font-size: 30px;
     line-height: 40px;
   }
-  .section-1 .general-page .big .box-text .text-lorem {
+  .section-1 .general-page .box-text .text-lorem {
     font-size: 15px;
     padding: 5px 5px;
     padding-bottom: 15px;
     line-height: 23px;
   }
-  .section-1 .general-page .big .box-text .buttons {
+  .section-1 .general-page .box-text .buttons {
     font-size: 15px;
     padding: 10px 10px;
   }
@@ -359,23 +375,19 @@ nav .menu .icon-menu {
   background-size: cover;
 }
 
-.text-black {
+.skills {
+  padding-bottom: 340px;
+  padding-top: 182px;
+}
+.skills .text-black {
   font-size: 43px;
   color: #1e0404;
   padding-left: 10px;
 }
-
-.text-white {
-  font-size: 68px;
-  line-height: 68px;
+.skills .text-white {
   margin-bottom: 10px;
   padding-left: 10px;
   background-color: #eeb501;
-}
-
-.skills {
-  padding-bottom: 340px;
-  padding-top: 182px;
 }
 
 .graphic-design {
@@ -397,10 +409,13 @@ nav .menu .icon-menu {
   padding-bottom: 15px;
 }
 
-@media (min-width: 992) and (max-width: 1199px) {
-  .text-white {
-    font-size: 53px;
-    line-height: 60px;
+@media (min-width: 992px) and (max-width: 1199px) {
+  .skills {
+    width: 40%;
+  }
+
+  .graphic-design {
+    width: 60%;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -411,41 +426,37 @@ nav .menu .icon-menu {
     padding-bottom: 0;
     padding-top: 40px;
   }
-
-  .sk {
-    text-align: left;
+  .skills .text-white {
+    font-size: 48px;
+    line-height: 48px;
+    padding-left: 0;
+    margin-bottom: 15px;
   }
 
   .graphic-design {
     width: 100%;
     margin: 0 auto;
   }
-
-  .icons {
-    padding: 0px 50px 70px;
+  .graphic-design .icons {
+    padding-bottom: 35px;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .skills {
-    width: 54%;
+    width: 65%;
     text-align: center;
     margin: 0 auto;
     padding-bottom: 0;
     padding-top: 20px;
   }
-
-  .text-black {
-    font-size: 28px;
+  .skills .text-black {
+    font-size: 30px;
     line-height: 45px;
   }
-
-  .text-white {
-    font-size: 24px;
+  .skills .text-white {
+    font-size: 35px;
     line-height: 40px;
-  }
-
-  .sk {
-    text-align: left;
+    padding-left: 0;
   }
 
   .graphic-design {
@@ -453,33 +464,27 @@ nav .menu .icon-menu {
     margin: 0 auto;
     padding-top: 30px;
   }
-
-  .icons {
+  .graphic-design .icons {
     width: 100%;
-    padding: 0px 50px 25px;
+    padding-bottom: 25px;
   }
 }
 @media (max-width: 319px) {
   .skills {
-    width: 87%;
+    width: 65%;
     text-align: center;
     margin: 0 auto;
     padding-bottom: 0;
     padding-top: 20px;
   }
-
-  .text-black {
+  .skills .text-black {
     font-size: 28px;
     line-height: 45px;
   }
-
-  .text-white {
+  .skills .text-white {
     font-size: 34px;
     line-height: 40px;
-  }
-
-  .sk {
-    text-align: left;
+    padding-left: 0;
   }
 
   .graphic-design {
@@ -487,10 +492,9 @@ nav .menu .icon-menu {
     margin: 0 auto;
     padding-top: 30px;
   }
-
-  .icons {
+  .graphic-design .icons {
     width: 100%;
-    padding: 0px 15px 10px;
+    padding-bottom: 10px;
   }
 }
 .section-3 {
@@ -545,43 +549,40 @@ nav .menu .icon-menu {
   padding-bottom: 60px;
 }
 
-@media (min-width: 992) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .section-3 {
     padding-top: 0;
   }
-
-  .topic-text {
+  .section-3 .topic-text {
     width: 100%;
     text-align: center;
     margin: 0 auto;
     padding-top: 40px;
   }
-
-  .topic-Lorem {
+  .section-3 .topic-text .topic-Lorem {
     padding-left: 75px;
     padding-right: 75px;
   }
-
-  .portfolio {
+  .section-3 .portfolio {
     width: 100%;
     display: block;
     margin: 0 auto;
     padding-bottom: 52px;
   }
-  .portfolio .one {
+  .section-3 .portfolio .one {
     width: 80%;
     float: none;
     margin-right: 0;
     padding-bottom: 18px;
   }
-  .portfolio .two {
+  .section-3 .portfolio .two {
     width: 39%;
     margin-right: 10px;
   }
-  .portfolio .three {
+  .section-3 .portfolio .three {
     width: 39%;
   }
-  .portfolio .four {
+  .section-3 .portfolio .four {
     width: 80%;
     padding-top: 18px;
   }
@@ -590,39 +591,36 @@ nav .menu .icon-menu {
   .section-3 {
     padding-top: 0;
   }
-
-  .topic-text {
+  .section-3 .topic-text {
     width: 100%;
     text-align: center;
     margin: 0 auto;
     padding-top: 40px;
   }
-
-  .topic-Lorem {
+  .section-3 .topic-text .topic-Lorem {
     padding-left: 75px;
     padding-right: 75px;
   }
-
-  .portfolio {
+  .section-3 .portfolio {
     width: 100%;
     display: block;
     margin: 0 auto;
     padding-bottom: 52px;
   }
-  .portfolio .one {
+  .section-3 .portfolio .one {
     width: 80%;
     float: none;
     margin-right: 0;
     padding-bottom: 18px;
   }
-  .portfolio .two {
+  .section-3 .portfolio .two {
     width: 39%;
     margin-right: 10px;
   }
-  .portfolio .three {
+  .section-3 .portfolio .three {
     width: 39%;
   }
-  .portfolio .four {
+  .section-3 .portfolio .four {
     width: 80%;
     padding-top: 18px;
   }
@@ -631,46 +629,42 @@ nav .menu .icon-menu {
   .section-3 {
     padding-top: 0;
   }
-
-  .topic-text {
+  .section-3 .topic-text {
     width: 100%;
     text-align: center;
     margin: 0 auto;
     padding-bottom: 40px;
     padding-top: 0;
   }
-
-  .topic-h2 {
+  .section-3 .topic-text .topic-h2 {
     font-size: 35px;
   }
-
-  .topic-Lorem {
+  .section-3 .topic-text .topic-Lorem {
     padding-left: 75px;
     padding-right: 75px;
   }
-
-  .portfolio {
+  .section-3 .portfolio {
     width: 100%;
     display: block;
     margin: 0 auto;
     padding-bottom: 52px;
   }
-  .portfolio .one {
+  .section-3 .portfolio .one {
     width: 80%;
     float: none;
     margin-right: 0;
     padding-bottom: 15px;
   }
-  .portfolio .two {
+  .section-3 .portfolio .two {
     width: 80%;
     margin-right: 0;
     padding-bottom: 15px;
   }
-  .portfolio .three {
+  .section-3 .portfolio .three {
     width: 80%;
     padding-bottom: 15px;
   }
-  .portfolio .four {
+  .section-3 .portfolio .four {
     width: 80%;
     padding-top: 0;
   }
@@ -679,56 +673,50 @@ nav .menu .icon-menu {
   .section-3 {
     padding-top: 0;
   }
-
-  .topic-text {
+  .section-3 .topic-text {
     width: 100%;
     text-align: center;
     margin: 0 auto;
     padding-bottom: 40px;
     padding-top: 0;
   }
-
-  .topic-h2 {
+  .section-3 .topic-text .topic-h2 {
     font-size: 30px;
   }
-
-  span {
+  .section-3 .topic-text .topic-p span {
     font-size: 20px;
   }
-
-  .topic-Lorem {
+  .section-3 .topic-text .topic-Lorem {
     font-size: 15px;
     padding-left: 15px;
     padding-right: 15px;
   }
-
-  .portfolio {
+  .section-3 .portfolio {
     width: 100%;
     display: block;
     margin: 0 auto;
     padding-bottom: 30px;
   }
-  .portfolio .one {
+  .section-3 .portfolio .one {
     width: 80%;
     float: none;
     margin-right: 0;
     padding-bottom: 15px;
   }
-  .portfolio .two {
+  .section-3 .portfolio .two {
     width: 80%;
     margin-right: 0;
     padding-bottom: 15px;
   }
-  .portfolio .three {
+  .section-3 .portfolio .three {
     width: 80%;
     padding-bottom: 15px;
   }
-  .portfolio .four {
+  .section-3 .portfolio .four {
     width: 80%;
     padding-top: 0;
   }
-
-  .choice {
+  .section-3 .choice {
     padding-bottom: 30px;
   }
 }
@@ -788,35 +776,30 @@ nav .menu .icon-menu {
   width: 25%;
 }
 
-@media (min-width: 992) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .designers {
     width: 100%;
     display: inline-block;
   }
-
-  .designer-icon {
+  .designers .designer-icon {
     width: 100%;
   }
-
-  .alow {
+  .designers .alow {
     width: 23%;
     padding-top: 87px;
     margin-right: 23px;
     padding-bottom: 0;
   }
-
-  .alow-less {
+  .designers .alow-less {
     width: 23%;
     padding-top: 20px;
   }
-
-  .designer-two {
+  .designers .designer-two {
     width: 23%;
     margin-right: 23px;
     padding-bottom: 90px;
   }
-
-  .designer-three {
+  .designers .designer-three {
     padding-bottom: 30px;
     width: 24%;
   }
@@ -825,36 +808,30 @@ nav .menu .icon-menu {
   .section-4 {
     padding-top: 0;
   }
-
-  .designers {
+  .section-4 .designers {
     width: 100%;
     display: inline-block;
     margin: 0 auto;
   }
-
-  .designer-icon {
+  .section-4 .designers .designer-icon {
     width: 100%;
   }
-
-  .alow {
+  .section-4 .designers .alow {
     width: 24%;
     padding-top: 87px;
     margin-right: 0;
     padding-bottom: 0;
   }
-
-  .alow-less {
+  .section-4 .designers .alow-less {
     width: 24%;
     padding-top: 20px;
   }
-
-  .designer-two {
+  .section-4 .designers .designer-two {
     width: 24%;
     margin-right: 0;
     padding-bottom: 90px;
   }
-
-  .designer-three {
+  .section-4 .designers .designer-three {
     padding-bottom: 30px;
     width: 24%;
   }
@@ -863,46 +840,39 @@ nav .menu .icon-menu {
   .section-4 {
     padding-top: 0;
   }
-
-  .topic-text {
+  .section-4 .topic-text {
     padding-bottom: 15px;
     padding-top: 40px;
   }
-
-  .designers {
+  .section-4 .designers {
     width: 100%;
     display: inline-block;
     margin: 0 auto;
   }
-
-  .designer .designer-h3 {
+  .section-4 .designers .designer-h3 {
     padding-top: 10px;
   }
-
-  .alow {
+  .section-4 .designers .alow {
     width: 100%;
     display: block;
     margin: 0 auto;
     padding-top: 0;
     padding-bottom: 20px;
   }
-
-  .alow-less {
+  .section-4 .designers .alow-less {
     width: 100%;
     display: block;
     margin: 0 auto;
     padding-bottom: 20px;
   }
-
-  .designer-two {
+  .section-4 .designers .designer-two {
     width: 100%;
     display: block;
     margin: 0 auto;
     padding-top: 20px;
     padding-bottom: 0;
   }
-
-  .designer-three {
+  .section-4 .designers .designer-three {
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -914,54 +884,46 @@ nav .menu .icon-menu {
   .section-4 {
     padding-top: 0;
   }
-
-  .topic-text {
+  .section-4 .topic-text {
     padding-bottom: 15px;
     padding-top: 25px;
   }
-
-  .designers {
+  .section-4 .designers {
     width: 100%;
     display: inline-block;
     margin: 0 auto;
   }
-
-  .designer .designer-h3 {
+  .section-4 .designers .designer-h3 {
     padding-top: 10px;
   }
-
-  .alow {
+  .section-4 .designers .alow {
     width: 100%;
     display: block;
     margin: 0 auto;
     padding-top: 0;
     padding-bottom: 20px;
   }
-
-  .alow-less {
+  .section-4 .designers .alow-less {
     width: 100%;
     display: block;
     margin: 0 auto;
     padding-bottom: 20px;
   }
-
-  .designer-two {
+  .section-4 .designers .designer-two {
     width: 100%;
     display: block;
     margin: 0 auto;
     padding-top: 20px;
     padding-bottom: 0;
   }
-
-  .designer-three {
+  .section-4 .designers .designer-three {
     width: 100%;
     display: block;
     margin: 0 auto;
     padding-top: 20px;
     padding-bottom: 0px;
   }
-
-  .designer-icon {
+  .section-4 .designers .designer-icon {
     width: 100%;
   }
 }

@@ -15,9 +15,7 @@ html, body {
 }
 
 .container {
-    padding-left: 0;
-    padding-right: 0;
-	margin: 0 auto;
+  margin: 0 auto;
 }
 
 .clearfix::after {
@@ -97,15 +95,18 @@ span {
 	margin-bottom: 0;	
 }
 
-
-
 @mixin desktop {
-  @media (min-width: 1200px) {
+  @media (min-width: 1370px) {
+    @content;
+  }
+}
+@mixin laptop-plus {
+  @media (min-width: 1200px) and (max-width: 1369px) {
     @content;
   }
 }
 @mixin laptop {
-  @media (min-width: 992) and (max-width: 1199px) {
+  @media (min-width: 992px) and (max-width: 1199px) {
     @content;
   }
 }

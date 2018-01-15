@@ -17,7 +17,6 @@ nav {
 	   size: 20px;	
 	   weight: $extrabold;
     }
-
     .menu {	
         padding-left: 0;
         color: $white;
@@ -57,17 +56,13 @@ nav {
 .general-page {	
     @extend %for-a;
    
-    .big {
-    width: 100%;
-	}
+    
     .foto-man {    	
 	    width: 50%;
         margin-left: -100px;
 	    margin-bottom: -115px;
     }
-    .man {     
-        
-    }
+    
     .box-text {
         width: 50%;
         margin-right: -92px;	
@@ -119,16 +114,50 @@ nav {
     }
 }
 
-@include laptop {
-    nav {
-        width: 100%;
-        .menu-li {
-            width: 100%;
-            margin-left: 28px;
+@include laptop-plus {
+        .general-page {
+        .foto-man {
+            width: 50%;
+            margin-left: 0;
+            .man {
+                width: 100%;
+            }
+        }
+        .box-text {
+            width: 50%;
+            float: none;
+            margin-right: 0;
+            padding-bottom: 100px;
+            .upper-text {
+                font-size: 45px;
+                line-height: 45px;  
+            }
+            .general-text {
+                font-size: 90px;
+                line-height: 100px;
+            }    
+            .lower-text {
+                font-size: 45px;
+                line-height: 50px;
+            }
+            .text-lorem {
+                
+            }
         }
     }
-	.big {
-		width: 100%;    
+}    
+
+
+@include laptop {
+    nav {
+        .menu {
+            text-align: right;
+            .menu-li {
+                margin-left: 25px;
+            }
+        }
+    }
+    .general-page {
         .foto-man {
     	    width: 50%;
             margin-left: 0;
@@ -140,7 +169,7 @@ nav {
     	    width: 50%;
             float: none;
             margin-right: 0;
-            padding-top: 100px;
+            padding-bottom: 50px;
             .upper-text {
                 font-size: 45px;
                 line-height: 45px;  
@@ -164,23 +193,23 @@ nav {
     nav {
         width: 100%;
     }
-    .big {
-		width: 100%;
+    .general-page {
         .foto-man {
     	    width: 100%;
             margin-left: 0;
     	    margin-bottom: 0;
             .man {
-                width: 100%;
+                width: 98%;
             }
         }
         .box-text {
             width: 100%;
             margin-right: 0;
             float: none;
-            padding-top: 100px;
+            text-align: center;
+            padding-bottom: 100px;
             .text-lorem {
-    	        padding: 15px 15px;
+    	        padding: 45px 15px;
             }
         }
     }
@@ -196,13 +225,14 @@ nav {
                 .icon-search  {
                     margin-left: 0;
                 }
+                .icon-menu {
+                    margin-left: 35px;
+                }
             }
         }
     }
     .general-page {
     	padding-bottom: 40px;
-        .big {
-		    width: 100%;
             .foto-man {
     	        width: 100%;
                 margin-left: 0;
@@ -217,6 +247,7 @@ nav {
                 margin-right: 0;
                 padding-top: 0;
                 float: none;
+                text-align: center;
                 .upper-text {
                     font-size: 35px;
                     line-height: 40px;	
@@ -236,7 +267,7 @@ nav {
     	            line-height: 30px;
                 }
             }
-        }
+        
     }
 }
  @include iphone {
@@ -258,7 +289,8 @@ nav {
                     }
                 }
                 .logotype {
-                    width: 35%;
+                    width: 40%;
+                    text-align: left;
                     margin-left: 0;
                     .logo {
                         width: 100%;
@@ -268,8 +300,7 @@ nav {
         }
         .general-page {
             padding-bottom: 40px;
-            .big {
-                width: 100%;
+            
                 .foto-man {
                     width: 100%;
                     margin-left: 0;
@@ -282,6 +313,7 @@ nav {
                     width: 100%;
                     margin-right: 0;
                     padding-top: 0;
+                    text-align: center;
                     .upper-text {
                         font-size: 30px;
                         line-height: 30px;  
@@ -304,7 +336,7 @@ nav {
                         font-size: 15px;
                         padding: 10px 10px;
                     } 
-                }
+                
             }
         }
     }

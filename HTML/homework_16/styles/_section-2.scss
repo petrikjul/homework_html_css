@@ -3,25 +3,23 @@
 	background-size: cover;		
 }
 
-.text-black {
-	@extend %for-h2;
-	font-size: 43px;
-	color: $brown;
-	padding-left: 10px;
-}
 
-.text-white {
-	@extend %for-h2;
-	font-size: 68px;
-	line-height: 68px;
-	margin-bottom: 10px;
-	padding-left: 10px;
-	background-color: $orange;
-}
 
 .skills {
-	padding-bottom: 340px;
+    padding-bottom: 340px;
     padding-top: 182px;
+    .text-black {
+        @extend %for-h2;
+        font-size: 43px;
+        color: $brown;
+        padding-left: 10px;
+    }
+    .text-white {
+	   @extend %for-h2;
+       margin-bottom: 10px;
+	   padding-left: 10px;
+	   background-color: $orange;
+    }
 }
 
 .graphic-design {
@@ -29,8 +27,7 @@
 	padding-top: 71px;
 }
 
-.icons {
-	
+.icons {	
 	width: 50%;
 	float: left;
     @extend %for-p;
@@ -50,10 +47,16 @@
     
 }
 
+@include laptop-plus {
+    
+}
+
 @include laptop {
-	.text-white {
-        font-size: 53px;
-        line-height: 60px;
+    .skills {
+        width: 40%;
+    }    
+    .graphic-design {
+        width: 60%;
     }
 }
 
@@ -64,76 +67,74 @@
         margin: 0 auto;
         padding-bottom: 0;
         padding-top: 40px;
-    }
-    .sk {
-        text-align: left;
+        .text-white {
+            font-size: 48px;
+            line-height: 48px;
+            padding-left: 0;
+            margin-bottom: 15px;
+        }
     }
     .graphic-design {
     	width: 100%;
     	margin: 0 auto;
-    }
-    .icons {    	
-        padding: 0px 50px 70px;
+        .icons {    	
+            padding-bottom: 35px;
+        }
     } 
-       
 }
 
  @include phone {
      .skills {
-    	width: 54%;
+    	width: 65%;
     	text-align: center;
         margin: 0 auto;
         padding-bottom: 0;
         padding-top: 20px;
-    }
-    .text-black {	
-	    font-size: 28px;
-	    line-height: 45px;
-	}
-    .text-white {
-	    font-size: 24px;
+        .text-black {	
+	        font-size: 30px;
+	        line-height: 45px;
+	    }
+        .text-white {
+	    font-size: 35px;
 	    line-height: 40px;
-	}
-    .sk {
-        text-align: left;
+        padding-left: 0;
+	    }
     }
     .graphic-design {
     	width: 100%;
     	margin: 0 auto;
         padding-top: 30px;
-    }
-    .icons {
-        width: 100%;    	
-        padding: 0px 50px 25px;
+        .icons {
+            width: 100%;    	
+            padding-bottom: 25px;
+        }
     } 
- }
+}
 
  @include iphone {
     .skills {
-        width: 87%;
+        width: 65%;
         text-align: center;
         margin: 0 auto;
         padding-bottom: 0;
         padding-top: 20px;
-    }
-    .text-black {   
-        font-size: 28px;
-        line-height: 45px;
-    }
-    .text-white {
-        font-size: 34px;
-        line-height: 40px;
-    }
-    .sk {
-        text-align: left;
+        .text-black {   
+            font-size: 28px;
+            line-height: 45px;
+        }
+        .text-white {
+            font-size: 34px;
+            line-height: 40px;
+            padding-left: 0;
+        }
     }
     .graphic-design {
         width: 100%;
         margin: 0 auto;
         padding-top: 30px;
-    }
-    .icons {
-        width: 100%;        
-        padding: 0px 15px 10px;
+        .icons {
+            width: 100%;        
+            padding-bottom: 10px;
+        }
     } 
- }
+}
