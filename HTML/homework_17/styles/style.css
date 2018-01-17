@@ -1,0 +1,104 @@
+html, body {
+  font-family: 'Raleway', sans-serif; }
+
+.container {
+  margin: 0 auto; }
+
+.menu .menu-li a, .menu .active .menu-li-a a, .buttons a {
+  color: #FFFFFF;
+  text-decoration: none; }
+.menu .menu-li a:hover, .menu .active .menu-li-a a:hover, .buttons a:hover {
+  text-decoration: none; }
+.menu .menu-li a:focus, .menu .active .menu-li-a a:focus, .buttons a:focus {
+  color: #FFFFFF;
+  text-decoration: none;
+  outline: none; }
+
+span {
+  color: #7b6c63; }
+
+.general-text {
+  font-size: 66px;
+  font-weight: 600;
+  line-height: 75px;
+  color: #FFFFFF;
+  margin: 0; }
+
+.text-grab {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #FFFFFF; }
+
+.buttons {
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 45px;
+  border: 2px solid #FFFFFF;
+  display: inline-block;
+  margin-bottom: 0; }
+
+.main {
+  background-image: url(../img/fon-section-1.png);
+  background-size: cover;
+  padding-top: 190px;
+  padding-bottom: 185px; }
+
+.header {
+  background-image: url(../img/header.png);
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+nav {
+  weight: 80%; }
+
+.menu {
+  padding-left: 0;
+  list-style: none;
+  margin-top: 15px;
+  margin-bottom: 0; }
+  .menu .menu-li {
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 12px;
+    font-weight: 400; }
+
+.menu .active:hover {
+  cursor: pointer; }
+.menu .active .menu-li-a::after {
+  content: "";
+  display: block;
+  background-color: #7b6c63;
+  margin-top: 13px;
+  width: 100%;
+  height: 5px; }
+
+.logotype {
+  text-decoration: none;
+  border-bottom: 0; }
+
+.vcenter {
+  display: inline-block;
+  float: none;
+  vertical-align: middle; }
+
+.general-text {
+  weight: 50%;
+  padding-bottom: 70px; }
+
+.buttons {
+  font-size: 16px;
+  font-weight: 400;
+  float: none; }
+
+/* -------- variables -------- */
+/* -------- section-1 -------- */
+/* -------- section-2 -------- */
+/* -------- section-3 -------- */
+/* -------- section-4 -------- */
+
+/*# sourceMappingURL=style.css.map */
